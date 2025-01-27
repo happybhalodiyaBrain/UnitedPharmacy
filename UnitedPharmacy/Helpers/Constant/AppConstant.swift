@@ -33,7 +33,6 @@ struct ErrorMessages {
     static let errNote = "Note"
     static let errCannotBeEmpty = "cannot be empty."
     static let errInvalidEmail  = "Invalid email address."
-    static let errInvalidZipCode = "Invalid ZIP Code. It must be 5 digits."
     static let errInvalidMobileNo =  "Invalid mobile number. It must be 10 digits."
 }
 
@@ -46,4 +45,15 @@ struct Contactus {
     static let email = "customercare@unitedpharmacy.sa"
     static let phoneNo = "+966 8002444445"
    
+}
+
+struct thankYouView {
+    static let thankYou = "Thank You!"
+    static let transactionSuccessful = "Your transaction was successful"
+    static let date = "DATE"
+    static let time = "TIME"
+    static let deliveryOption = "DELIVERY OPTION"
+    static let paymentMethod = "PAYMENT METHOD"
+    static let totalAmount = "Total Amount"
+    static let continueShopping = "Continue Shopping"
 }

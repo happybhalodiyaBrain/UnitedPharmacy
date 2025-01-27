@@ -21,5 +21,13 @@
 			</array>
 		</dict>
 	</dict>
+    <key>UIAppFonts</key>
+    <array>
+        <string>Almarai-Bold.ttf</string>
+        <string>Almarai-ExtraBold.ttf</string>
+        <string>Almarai-Light.ttf</string>
+        <string>Almarai-Regular.ttf</string>
+        <string>OpenSans_Condensed-SemiBold.ttf</string>
+    </array>
 </dict>
 </plist>

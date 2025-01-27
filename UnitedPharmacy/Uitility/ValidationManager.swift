@@ -20,15 +20,7 @@ struct ValidationManager {
         return nil
     }
     
-    // Validation for ZIP Code (assuming 5-digit ZIP)
-    static func isValidZipCode(_ zip: String) -> String? {
-        let zipRegex = "^[0-9]{5}$"
-        let zipPredicate = NSPredicate(format: "SELF MATCHES %@", zipRegex)
-        if !zipPredicate.evaluate(with: zip) {
-            return ErrorMessages.errInvalidZipCode
-        }
-        return nil
-    }
+   
     
     // Validation for Mobile Number (assuming 10 digits)
        static func isValidMobileNumber(_ mobile: String) -> String? {

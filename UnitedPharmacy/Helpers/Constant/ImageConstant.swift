@@ -18,6 +18,7 @@ enum Icons : String {
     case ic_smallDropDown = "ic_smallDropDown"
     case dummy = "dummy"
     case rectImage = "rectImage"
+    case ic_check = "ic_check"
 }
 
 enum ContactUsImages : String {

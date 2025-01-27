@@ -6,11 +6,12 @@
 //
 
 import Foundation
+import UIKit
 
 
 // MARK: - Global Device Constants
 /// Global size constants for device screen dimensions, to be used across the app.
-var designSize: CGSize = CGSize(width: 375.0, height: 812.0) // size as per xd
+var designSize: CGSize = CGSize(width: 375.0, height: 680.0) // size as per xd
 var deviceScreenSize: CGSize = CGSize(width: 375.0, height: 812.0) // 15 pro
 var geometryHeight = deviceScreenSize.height // Global Height Constant of GeometryReader to use throught App
 var geometryWidth = deviceScreenSize.width // Global Width Constant of GeometryReader to use throught App
@@ -33,6 +34,28 @@ func calculateScaledSize(xdWidth: CGFloat, xdHeight: CGFloat) -> CGSize {
     
     return CGSize(width: scaledWidth, height: scaledHeight)
 }
+
+
+
+func scaleBoxSize(baseWidth: CGFloat, baseHeight: CGFloat, boxWidth: CGFloat, boxHeight: CGFloat) -> CGSize {
+    let screenWidth = UIScreen.main.bounds.width
+    let screenHeight = UIScreen.main.bounds.height
+    
+    // Calculate scaling factors
+    let widthScale = screenWidth / baseWidth
+    let heightScale = screenHeight / baseHeight
+    
+    // Use the smaller scaling factor to maintain aspect ratio
+    let scaleFactor = min(widthScale, heightScale)
+    
+    // Scale box dimensions
+    let scaledWidth = boxWidth * scaleFactor
+    let scaledHeight = boxHeight * scaleFactor
+    
+    return CGSize(width: scaledWidth, height: scaledHeight)
+}
+
+
 // MARK: - Font Constants
 /// A struct containing the font names used in the app for consistency.
 struct FontConstant {

@@ -19,7 +19,7 @@ struct GetInTouchView: View {
                                fontName: FontConstant.Almarai_Regular)
                     .multilineTextAlignment(.center)
                     .padding(.top, 24)
-            }
+            }.padding(.horizontal, 16)
             // MARK: - Form Section
             VStack(spacing: 24){
                 FloatingTextField(
@@ -57,6 +57,9 @@ struct GetInTouchView: View {
             ).padding(.vertical, 24)
             
             Spacer()
+        }
+        .onTapGesture {
+            viewModel.dismissKeyboard()
         }
         // MARK: - Alert for Validation Errors
             .showAlert(

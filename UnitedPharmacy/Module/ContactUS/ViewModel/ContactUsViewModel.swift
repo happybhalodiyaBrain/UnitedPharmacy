@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ContactUsViewModel: ObservableObject {
     // MARK: - Published Properties
@@ -26,6 +27,11 @@ class ContactUsViewModel: ObservableObject {
     init(contactUs: ContactUsModel) {
         self.contactUs = contactUs
     }
+    
+    /// dismiss keyboard
+     func dismissKeyboard() {
+           UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+       }
     
     /// Validates the fields in the form.
     ///

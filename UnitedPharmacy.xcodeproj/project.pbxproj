@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDB6C9322D47497500397170 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9312D47497500397170 /* ThankYouView.swift */; };
+		BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9332D47498700397170 /* ThankYouViewModel.swift */; };
+		BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9352D47499200397170 /* ThankYouModel.swift */; };
+		BDB6C9382D47499F00397170 /* ThankYouCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9372D47499F00397170 /* ThankYouCoordinator.swift */; };
 		BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBAB2D43CB7A006F7816 /* AppDelegate.swift */; };
 		BDECBBAE2D43CB7A006F7816 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBAD2D43CB7A006F7816 /* SceneDelegate.swift */; };
 		BDECBBB02D43CB7A006F7816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBAF2D43CB7A006F7816 /* ViewController.swift */; };
 		BDECBBB32D43CB7A006F7816 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBB22D43CB7A006F7816 /* Base */; };
 		BDECBBB52D43CB7C006F7816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBB42D43CB7C006F7816 /* Assets.xcassets */; };
 		BDECBBB82D43CB7C006F7816 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBB72D43CB7C006F7816 /* Base */; };
+		BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBC12D43CBD8006F7816 /* AppNavigationControllerProvider.swift */; };
+		BDECBBE32D43CC13006F7816 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBC32D43CC13006F7816 /* ValidationManager.swift */; };
+		BDECBBE42D43CC13006F7816 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBC52D43CC13006F7816 /* AlertManager.swift */; };
+		BDECBBE52D43CC13006F7816 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBC62D43CC13006F7816 /* CommonButton.swift */; };
+		BDECBBE62D43CC13006F7816 /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBC72D43CC13006F7816 /* CustomHeader.swift */; };
+		BDECBBE72D43CC13006F7816 /* DropdownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBC82D43CC13006F7816 /* DropdownPicker.swift */; };
+		BDECBBE82D43CC13006F7816 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBC92D43CC13006F7816 /* FloatingTextField.swift */; };
+		BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBCA2D43CC13006F7816 /* TopTabView.swift */; };
+		BDECBBEA2D43CC13006F7816 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBCC2D43CC13006F7816 /* AppConstant.swift */; };
+		BDECBBEB2D43CC13006F7816 /* FontConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBCD2D43CC13006F7816 /* FontConstant.swift */; };
+		BDECBBEC2D43CC13006F7816 /* ImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBCE2D43CC13006F7816 /* ImageConstant.swift */; };
+		BDECBBED2D43CC13006F7816 /* Color + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBD02D43CC13006F7816 /* Color + Extensions.swift */; };
+		BDECBBEE2D43CC13006F7816 /* Text + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBD12D43CC13006F7816 /* Text + Extensions.swift */; };
+		BDECBBEF2D43CC13006F7816 /* Text + Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBD32D43CC13006F7816 /* Text + Modifier.swift */; };
+		BDECBBF02D43CC13006F7816 /* ContactUsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBD62D43CC13006F7816 /* ContactUsCoordinator.swift */; };
+		BDECBBF12D43CC13006F7816 /* ContactUsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBD82D43CC13006F7816 /* ContactUsModel.swift */; };
+		BDECBBF22D43CC13006F7816 /* ContactInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBDA2D43CC13006F7816 /* ContactInformationView.swift */; };
+		BDECBBF32D43CC13006F7816 /* GetInTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBDB2D43CC13006F7816 /* GetInTouchView.swift */; };
+		BDECBBF42D43CC13006F7816 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBDD2D43CC13006F7816 /* ContactUsView.swift */; };
+		BDECBBF52D43CC13006F7816 /* ContactUsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBDF2D43CC13006F7816 /* ContactUsViewModel.swift */; };
+		BDECBBFC2D43CFF5006F7816 /* Almarai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBFA2D43CFEE006F7816 /* Almarai-Bold.ttf */; };
+		BDECBBFD2D43CFF5006F7816 /* Almarai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBF72D43CFEE006F7816 /* Almarai-ExtraBold.ttf */; };
+		BDECBBFE2D43CFF5006F7816 /* Almarai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBFB2D43CFEE006F7816 /* Almarai-Light.ttf */; };
+		BDECBBFF2D43CFF5006F7816 /* Almarai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBF82D43CFEE006F7816 /* Almarai-Regular.ttf */; };
+		BDECBC002D43CFF5006F7816 /* OpenSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBF92D43CFEE006F7816 /* OpenSans_Condensed-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDB6C9312D47497500397170 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
+		BDB6C9332D47498700397170 /* ThankYouViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewModel.swift; sourceTree = "<group>"; };
+		BDB6C9352D47499200397170 /* ThankYouModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouModel.swift; sourceTree = "<group>"; };
+		BDB6C9372D47499F00397170 /* ThankYouCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouCoordinator.swift; sourceTree = "<group>"; };
 		BDECBBA82D43CB7A006F7816 /* UnitedPharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitedPharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDECBBAB2D43CB7A006F7816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDECBBAD2D43CB7A006F7816 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +57,31 @@
 		BDECBBB42D43CB7C006F7816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDECBBB72D43CB7C006F7816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDECBBB92D43CB7C006F7816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDECBBC12D43CBD8006F7816 /* AppNavigationControllerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationControllerProvider.swift; sourceTree = "<group>"; };
+		BDECBBC32D43CC13006F7816 /* ValidationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		BDECBBC52D43CC13006F7816 /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		BDECBBC62D43CC13006F7816 /* CommonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		BDECBBC72D43CC13006F7816 /* CustomHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+		BDECBBC82D43CC13006F7816 /* DropdownPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownPicker.swift; sourceTree = "<group>"; };
+		BDECBBC92D43CC13006F7816 /* FloatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		BDECBBCA2D43CC13006F7816 /* TopTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTabView.swift; sourceTree = "<group>"; };
+		BDECBBCC2D43CC13006F7816 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		BDECBBCD2D43CC13006F7816 /* FontConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstant.swift; sourceTree = "<group>"; };
+		BDECBBCE2D43CC13006F7816 /* ImageConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstant.swift; sourceTree = "<group>"; };
+		BDECBBD02D43CC13006F7816 /* Color + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color + Extensions.swift"; sourceTree = "<group>"; };
+		BDECBBD12D43CC13006F7816 /* Text + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Text + Extensions.swift"; sourceTree = "<group>"; };
+		BDECBBD32D43CC13006F7816 /* Text + Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Text + Modifier.swift"; sourceTree = "<group>"; };
+		BDECBBD62D43CC13006F7816 /* ContactUsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsCoordinator.swift; sourceTree = "<group>"; };
+		BDECBBD82D43CC13006F7816 /* ContactUsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsModel.swift; sourceTree = "<group>"; };
+		BDECBBDA2D43CC13006F7816 /* ContactInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInformationView.swift; sourceTree = "<group>"; };
+		BDECBBDB2D43CC13006F7816 /* GetInTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInTouchView.swift; sourceTree = "<group>"; };
+		BDECBBDD2D43CC13006F7816 /* ContactUsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		BDECBBDF2D43CC13006F7816 /* ContactUsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewModel.swift; sourceTree = "<group>"; };
+		BDECBBF72D43CFEE006F7816 /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BDECBBF82D43CFEE006F7816 /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		BDECBBF92D43CFEE006F7816 /* OpenSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		BDECBBFA2D43CFEE006F7816 /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		BDECBBFB2D43CFEE006F7816 /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +95,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDB6C92C2D47492600397170 /* ThankYou */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6C92D2D47493300397170 /* Coordinator */,
+				BDB6C92E2D47493B00397170 /* Model */,
+				BDB6C9302D47494500397170 /* ViewModel */,
+				BDB6C92F2D47494100397170 /* View */,
+			);
+			path = ThankYou;
+			sourceTree = "<group>";
+		};
+		BDB6C92D2D47493300397170 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6C9372D47499F00397170 /* ThankYouCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BDB6C92E2D47493B00397170 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6C9352D47499200397170 /* ThankYouModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDB6C92F2D47494100397170 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6C9312D47497500397170 /* ThankYouView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDB6C9302D47494500397170 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6C9332D47498700397170 /* ThankYouViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		BDECBB9F2D43CB7A006F7816 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +157,12 @@
 		BDECBBAA2D43CB7A006F7816 /* UnitedPharmacy */ = {
 			isa = PBXGroup;
 			children = (
-				BDECBBAB2D43CB7A006F7816 /* AppDelegate.swift */,
-				BDECBBAD2D43CB7A006F7816 /* SceneDelegate.swift */,
+				BDECBBF62D43CFE0006F7816 /* Fonts */,
+				BDECBBD52D43CC13006F7816 /* Helpers */,
+				BDECBBE22D43CC13006F7816 /* Module */,
+				BDECBBC42D43CC13006F7816 /* Uitility */,
+				BDECBBC02D43CBB9006F7816 /* Services */,
+				BDECBBBF2D43CB87006F7816 /* App */,
 				BDECBBAF2D43CB7A006F7816 /* ViewController.swift */,
 				BDECBBB12D43CB7A006F7816 /* Main.storyboard */,
 				BDECBBB42D43CB7C006F7816 /* Assets.xcassets */,
@@ -65,6 +170,156 @@
 				BDECBBB92D43CB7C006F7816 /* Info.plist */,
 			);
 			path = UnitedPharmacy;
+			sourceTree = "<group>";
+		};
+		BDECBBBF2D43CB87006F7816 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBAB2D43CB7A006F7816 /* AppDelegate.swift */,
+				BDECBBAD2D43CB7A006F7816 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BDECBBC02D43CBB9006F7816 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBC12D43CBD8006F7816 /* AppNavigationControllerProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BDECBBC42D43CC13006F7816 /* Uitility */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBC32D43CC13006F7816 /* ValidationManager.swift */,
+			);
+			path = Uitility;
+			sourceTree = "<group>";
+		};
+		BDECBBCB2D43CC13006F7816 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBC52D43CC13006F7816 /* AlertManager.swift */,
+				BDECBBC62D43CC13006F7816 /* CommonButton.swift */,
+				BDECBBC72D43CC13006F7816 /* CustomHeader.swift */,
+				BDECBBC82D43CC13006F7816 /* DropdownPicker.swift */,
+				BDECBBC92D43CC13006F7816 /* FloatingTextField.swift */,
+				BDECBBCA2D43CC13006F7816 /* TopTabView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		BDECBBCF2D43CC13006F7816 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBCC2D43CC13006F7816 /* AppConstant.swift */,
+				BDECBBCD2D43CC13006F7816 /* FontConstant.swift */,
+				BDECBBCE2D43CC13006F7816 /* ImageConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		BDECBBD22D43CC13006F7816 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBD02D43CC13006F7816 /* Color + Extensions.swift */,
+				BDECBBD12D43CC13006F7816 /* Text + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDECBBD42D43CC13006F7816 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBD32D43CC13006F7816 /* Text + Modifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		BDECBBD52D43CC13006F7816 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBCB2D43CC13006F7816 /* CommonView */,
+				BDECBBCF2D43CC13006F7816 /* Constant */,
+				BDECBBD22D43CC13006F7816 /* Extensions */,
+				BDECBBD42D43CC13006F7816 /* Modifiers */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BDECBBD72D43CC13006F7816 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBD62D43CC13006F7816 /* ContactUsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BDECBBD92D43CC13006F7816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBD82D43CC13006F7816 /* ContactUsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDECBBDC2D43CC13006F7816 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBDA2D43CC13006F7816 /* ContactInformationView.swift */,
+				BDECBBDB2D43CC13006F7816 /* GetInTouchView.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		BDECBBDE2D43CC13006F7816 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBDC2D43CC13006F7816 /* Section */,
+				BDECBBDD2D43CC13006F7816 /* ContactUsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDECBBE02D43CC13006F7816 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBDF2D43CC13006F7816 /* ContactUsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BDECBBE12D43CC13006F7816 /* ContactUS */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBD72D43CC13006F7816 /* Coordinator */,
+				BDECBBD92D43CC13006F7816 /* Model */,
+				BDECBBE02D43CC13006F7816 /* ViewModel */,
+				BDECBBDE2D43CC13006F7816 /* View */,
+			);
+			path = ContactUS;
+			sourceTree = "<group>";
+		};
+		BDECBBE22D43CC13006F7816 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6C92C2D47492600397170 /* ThankYou */,
+				BDECBBE12D43CC13006F7816 /* ContactUS */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BDECBBF62D43CFE0006F7816 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BDECBBFA2D43CFEE006F7816 /* Almarai-Bold.ttf */,
+				BDECBBF72D43CFEE006F7816 /* Almarai-ExtraBold.ttf */,
+				BDECBBFB2D43CFEE006F7816 /* Almarai-Light.ttf */,
+				BDECBBF82D43CFEE006F7816 /* Almarai-Regular.ttf */,
+				BDECBBF92D43CFEE006F7816 /* OpenSans_Condensed-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +380,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDECBBFC2D43CFF5006F7816 /* Almarai-Bold.ttf in Resources */,
+				BDECBBFD2D43CFF5006F7816 /* Almarai-ExtraBold.ttf in Resources */,
+				BDECBBFE2D43CFF5006F7816 /* Almarai-Light.ttf in Resources */,
+				BDECBBFF2D43CFF5006F7816 /* Almarai-Regular.ttf in Resources */,
+				BDECBC002D43CFF5006F7816 /* OpenSans_Condensed-SemiBold.ttf in Resources */,
 				BDECBBB52D43CB7C006F7816 /* Assets.xcassets in Resources */,
 				BDECBBB82D43CB7C006F7816 /* Base in Resources */,
 				BDECBBB32D43CB7A006F7816 /* Base in Resources */,
@@ -138,7 +398,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDECBBED2D43CC13006F7816 /* Color + Extensions.swift in Sources */,
+				BDECBBE52D43CC13006F7816 /* CommonButton.swift in Sources */,
+				BDECBBEE2D43CC13006F7816 /* Text + Extensions.swift in Sources */,
+				BDECBBF42D43CC13006F7816 /* ContactUsView.swift in Sources */,
+				BDECBBF02D43CC13006F7816 /* ContactUsCoordinator.swift in Sources */,
+				BDECBBF22D43CC13006F7816 /* ContactInformationView.swift in Sources */,
+				BDECBBEF2D43CC13006F7816 /* Text + Modifier.swift in Sources */,
+				BDECBBF32D43CC13006F7816 /* GetInTouchView.swift in Sources */,
+				BDB6C9382D47499F00397170 /* ThankYouCoordinator.swift in Sources */,
+				BDECBBE62D43CC13006F7816 /* CustomHeader.swift in Sources */,
+				BDECBBF12D43CC13006F7816 /* ContactUsModel.swift in Sources */,
+				BDECBBE32D43CC13006F7816 /* ValidationManager.swift in Sources */,
+				BDB6C9322D47497500397170 /* ThankYouView.swift in Sources */,
+				BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */,
+				BDECBBEA2D43CC13006F7816 /* AppConstant.swift in Sources */,
+				BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */,
+				BDECBBF52D43CC13006F7816 /* ContactUsViewModel.swift in Sources */,
+				BDECBBE82D43CC13006F7816 /* FloatingTextField.swift in Sources */,
 				BDECBBB02D43CB7A006F7816 /* ViewController.swift in Sources */,
+				BDECBBEB2D43CC13006F7816 /* FontConstant.swift in Sources */,
+				BDECBBEC2D43CC13006F7816 /* ImageConstant.swift in Sources */,
+				BDECBBE72D43CC13006F7816 /* DropdownPicker.swift in Sources */,
+				BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */,
+				BDECBBE42D43CC13006F7816 /* AlertManager.swift in Sources */,
+				BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */,
 				BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */,
 				BDECBBAE2D43CB7A006F7816 /* SceneDelegate.swift in Sources */,
 			);
@@ -299,6 +583,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +611,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
