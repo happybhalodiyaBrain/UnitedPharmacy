@@ -37,6 +37,8 @@ extension UIColor {
     static let appclr38AB15 = "clr38AB15"
     static let appclr4CAADA = "clr4CAADA"
     static let appclrF1F1F1 = "clrF1F1F1"
+    static let appclrF2F2F2 = "clrF2F2F2"
+    static let appclrEFF9FF = "clrEFF9FF"
     
     // MARK: - Accent Colors
     /// Red color for error messages or alerts.

@@ -25,3 +25,5 @@ struct AccountOption: Hashable, Identifiable {
     var title: String // Title of the account option
     var trailingText: String? = nil // Optional trailing text
 }
+
+

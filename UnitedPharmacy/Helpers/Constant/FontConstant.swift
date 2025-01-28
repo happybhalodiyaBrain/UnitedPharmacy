@@ -37,23 +37,7 @@ func calculateScaledSize(xdWidth: CGFloat, xdHeight: CGFloat) -> CGSize {
 
 
 
-func scaleBoxSize(baseWidth: CGFloat, baseHeight: CGFloat, boxWidth: CGFloat, boxHeight: CGFloat) -> CGSize {
-    let screenWidth = UIScreen.main.bounds.width
-    let screenHeight = UIScreen.main.bounds.height
-    
-    // Calculate scaling factors
-    let widthScale = screenWidth / baseWidth
-    let heightScale = screenHeight / baseHeight
-    
-    // Use the smaller scaling factor to maintain aspect ratio
-    let scaleFactor = min(widthScale, heightScale)
-    
-    // Scale box dimensions
-    let scaledWidth = boxWidth * scaleFactor
-    let scaledHeight = boxHeight * scaleFactor
-    
-    return CGSize(width: scaledWidth, height: scaledHeight)
-}
+
 
 
 // MARK: - Font Constants
@@ -63,7 +47,8 @@ struct FontConstant {
     static let Almarai_ExtraBold = "Almarai-ExtraBold"
     static let Almarai_Light = "Almarai-Light"
     static let Almarai_Regular = "Almarai-Regular"
-    static let OpenSans_Condensed_SemiBold = "OpenSans_Condensed-SemiBold"
+    static let OpenSans_SemiBold = "OpenSans-SemiBold"
+    static let OpenSans_Bold = "OpenSans-Bold"
 }
 
 // MARK: - Font Size Manager

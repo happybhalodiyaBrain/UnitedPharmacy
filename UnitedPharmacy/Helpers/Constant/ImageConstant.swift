@@ -40,3 +40,14 @@ enum ContactUsImages : String {
     case img_phonecall = "img_phonecall"
     case img_locationPin = "img_locationPin"
 }
+
+enum cartImages : String {
+    case img_visa = "img_visa"
+    case img_applePay = "img_applePay"
+    case img_americanExpress = "img_americanExpress"
+    case img_card = "img_card"
+    case img_cashOnDelivery = "img_cashOnDelivery"
+    case img_clickpay = "img_clickpay"
+    case img_logo = "img_logo"
+    case img_StcPay = "img_StcPay"
+}

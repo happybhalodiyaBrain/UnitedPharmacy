@@ -12,6 +12,7 @@ import Foundation
 struct Header {
     static let contactUs = "Contact Us"
     static let myAccount = "My Account"
+    static let cart = "Cart (2 Items)"
 }
 
 struct InputFields {
@@ -19,10 +20,12 @@ struct InputFields {
     static let txtName = "Name*"
     static let txtMobileNo = "Mobile Number*"
     static let txtNote = "What's on your mind?*"
+    static let txtEnterDiscountCode = "Enter Discount Code"
 }
 
 struct Buttons {
     static let btn_submit = "Submit"
+    static let btn_apply = "APPLY"
 }
 
 struct ErrorMessages {
@@ -74,4 +77,15 @@ struct myAccountView {
     static let faq = "FAQ"
     static let aboutUs = "About Us"
    
+}
+
+struct cart {
+    static let paymentMethod = "Payment Method"
+    static let addADiscountCode = "Add a Discount Code"
+    static let total = "Total"
+    static let placeOrder = "Place Order"
+    static let orderSummary = "Order Summary"
+    static let Subtotal = "Subtotal"
+    static let shippingCharges = "Shipping Charges"
+    static let discount = "Discount"
 }

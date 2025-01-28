@@ -17,6 +17,14 @@
 		BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9332D47498700397170 /* ThankYouViewModel.swift */; };
 		BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9352D47499200397170 /* ThankYouModel.swift */; };
 		BDB6C9382D47499F00397170 /* ThankYouCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9372D47499F00397170 /* ThankYouCoordinator.swift */; };
+		BDDC5CE12D48D8380086B32B /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE02D48D8380086B32B /* CartCoordinator.swift */; };
+		BDDC5CE32D48D8400086B32B /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE22D48D8400086B32B /* CartModel.swift */; };
+		BDDC5CE52D48D84A0086B32B /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE42D48D84A0086B32B /* CartViewModel.swift */; };
+		BDDC5CE72D48D8660086B32B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE62D48D8660086B32B /* CartView.swift */; };
+		BDDC5CEA2D48DD2A0086B32B /* PaymentMethodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE92D48DD2A0086B32B /* PaymentMethodListView.swift */; };
+		BDDC5CEF2D48F8940086B32B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDDC5CED2D48F8940086B32B /* OpenSans-Bold.ttf */; };
+		BDDC5CF02D48F8940086B32B /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDDC5CEE2D48F8940086B32B /* OpenSans-SemiBold.ttf */; };
+		BDDC5CF22D48FF0E0086B32B /* OrderSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CF12D48FF0E0086B32B /* OrderSummaryView.swift */; };
 		BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBAB2D43CB7A006F7816 /* AppDelegate.swift */; };
 		BDECBBAE2D43CB7A006F7816 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBAD2D43CB7A006F7816 /* SceneDelegate.swift */; };
 		BDECBBB02D43CB7A006F7816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBBAF2D43CB7A006F7816 /* ViewController.swift */; };
@@ -47,7 +55,6 @@
 		BDECBBFD2D43CFF5006F7816 /* Almarai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBF72D43CFEE006F7816 /* Almarai-ExtraBold.ttf */; };
 		BDECBBFE2D43CFF5006F7816 /* Almarai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBFB2D43CFEE006F7816 /* Almarai-Light.ttf */; };
 		BDECBBFF2D43CFF5006F7816 /* Almarai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBF82D43CFEE006F7816 /* Almarai-Regular.ttf */; };
-		BDECBC002D43CFF5006F7816 /* OpenSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDECBBF92D43CFEE006F7816 /* OpenSans_Condensed-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +68,14 @@
 		BDB6C9332D47498700397170 /* ThankYouViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewModel.swift; sourceTree = "<group>"; };
 		BDB6C9352D47499200397170 /* ThankYouModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouModel.swift; sourceTree = "<group>"; };
 		BDB6C9372D47499F00397170 /* ThankYouCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouCoordinator.swift; sourceTree = "<group>"; };
+		BDDC5CE02D48D8380086B32B /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
+		BDDC5CE22D48D8400086B32B /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		BDDC5CE42D48D84A0086B32B /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		BDDC5CE62D48D8660086B32B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BDDC5CE92D48DD2A0086B32B /* PaymentMethodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodListView.swift; sourceTree = "<group>"; };
+		BDDC5CED2D48F8940086B32B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		BDDC5CEE2D48F8940086B32B /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		BDDC5CF12D48FF0E0086B32B /* OrderSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryView.swift; sourceTree = "<group>"; };
 		BDECBBA82D43CB7A006F7816 /* UnitedPharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitedPharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDECBBAB2D43CB7A006F7816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDECBBAD2D43CB7A006F7816 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,7 +106,6 @@
 		BDECBBDF2D43CC13006F7816 /* ContactUsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewModel.swift; sourceTree = "<group>"; };
 		BDECBBF72D43CFEE006F7816 /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
 		BDECBBF82D43CFEE006F7816 /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Regular.ttf"; sourceTree = "<group>"; };
-		BDECBBF92D43CFEE006F7816 /* OpenSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
 		BDECBBFA2D43CFEE006F7816 /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
 		BDECBBFB2D43CFEE006F7816 /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,6 +214,59 @@
 				BDB6C9332D47498700397170 /* ThankYouViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BDDC5CDB2D48D7930086B32B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC5CDF2D48D7AC0086B32B /* Coordinator */,
+				BDDC5CDE2D48D7A90086B32B /* Model */,
+				BDDC5CDD2D48D7A60086B32B /* ViewModel */,
+				BDDC5CDC2D48D7A40086B32B /* View */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		BDDC5CDC2D48D7A40086B32B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC5CE82D48DD1D0086B32B /* Section */,
+				BDDC5CE62D48D8660086B32B /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDDC5CDD2D48D7A60086B32B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC5CE42D48D84A0086B32B /* CartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BDDC5CDE2D48D7A90086B32B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC5CE22D48D8400086B32B /* CartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDDC5CDF2D48D7AC0086B32B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC5CE02D48D8380086B32B /* CartCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BDDC5CE82D48DD1D0086B32B /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC5CE92D48DD2A0086B32B /* PaymentMethodListView.swift */,
+				BDDC5CF12D48FF0E0086B32B /* OrderSummaryView.swift */,
+			);
+			path = Section;
 			sourceTree = "<group>";
 		};
 		BDECBB9F2D43CB7A006F7816 = {
@@ -369,6 +436,7 @@
 		BDECBBE22D43CC13006F7816 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				BDDC5CDB2D48D7930086B32B /* Cart */,
 				BD21CAFB2D4893F800AF1186 /* MyAccount */,
 				BDB6C92C2D47492600397170 /* ThankYou */,
 				BDECBBE12D43CC13006F7816 /* ContactUS */,
@@ -383,7 +451,8 @@
 				BDECBBF72D43CFEE006F7816 /* Almarai-ExtraBold.ttf */,
 				BDECBBFB2D43CFEE006F7816 /* Almarai-Light.ttf */,
 				BDECBBF82D43CFEE006F7816 /* Almarai-Regular.ttf */,
-				BDECBBF92D43CFEE006F7816 /* OpenSans_Condensed-SemiBold.ttf */,
+				BDDC5CED2D48F8940086B32B /* OpenSans-Bold.ttf */,
+				BDDC5CEE2D48F8940086B32B /* OpenSans-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -448,9 +517,10 @@
 			files = (
 				BDECBBFC2D43CFF5006F7816 /* Almarai-Bold.ttf in Resources */,
 				BDECBBFD2D43CFF5006F7816 /* Almarai-ExtraBold.ttf in Resources */,
+				BDDC5CF02D48F8940086B32B /* OpenSans-SemiBold.ttf in Resources */,
 				BDECBBFE2D43CFF5006F7816 /* Almarai-Light.ttf in Resources */,
 				BDECBBFF2D43CFF5006F7816 /* Almarai-Regular.ttf in Resources */,
-				BDECBC002D43CFF5006F7816 /* OpenSans_Condensed-SemiBold.ttf in Resources */,
+				BDDC5CEF2D48F8940086B32B /* OpenSans-Bold.ttf in Resources */,
 				BDECBBB52D43CB7C006F7816 /* Assets.xcassets in Resources */,
 				BDECBBB82D43CB7C006F7816 /* Base in Resources */,
 				BDECBBB32D43CB7A006F7816 /* Base in Resources */,
@@ -467,6 +537,7 @@
 				BD21CB032D48948900AF1186 /* MyAccountModel.swift in Sources */,
 				BDECBBED2D43CC13006F7816 /* Color + Extensions.swift in Sources */,
 				BDECBBE52D43CC13006F7816 /* CommonButton.swift in Sources */,
+				BDDC5CF22D48FF0E0086B32B /* OrderSummaryView.swift in Sources */,
 				BDECBBEE2D43CC13006F7816 /* Text + Extensions.swift in Sources */,
 				BDECBBF42D43CC13006F7816 /* ContactUsView.swift in Sources */,
 				BDECBBF02D43CC13006F7816 /* ContactUsCoordinator.swift in Sources */,
@@ -480,20 +551,25 @@
 				BDECBBE32D43CC13006F7816 /* ValidationManager.swift in Sources */,
 				BDB6C9322D47497500397170 /* ThankYouView.swift in Sources */,
 				BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */,
+				BDDC5CE12D48D8380086B32B /* CartCoordinator.swift in Sources */,
 				BDECBBEA2D43CC13006F7816 /* AppConstant.swift in Sources */,
 				BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */,
 				BDECBBF52D43CC13006F7816 /* ContactUsViewModel.swift in Sources */,
 				BDECBBE82D43CC13006F7816 /* FloatingTextField.swift in Sources */,
+				BDDC5CE72D48D8660086B32B /* CartView.swift in Sources */,
 				BDECBBB02D43CB7A006F7816 /* ViewController.swift in Sources */,
 				BDECBBEB2D43CC13006F7816 /* FontConstant.swift in Sources */,
 				BDECBBEC2D43CC13006F7816 /* ImageConstant.swift in Sources */,
+				BDDC5CE52D48D84A0086B32B /* CartViewModel.swift in Sources */,
 				BD21CB092D489E5F00AF1186 /* HorizontalButton.swift in Sources */,
 				BD21CB0C2D48AA7900AF1186 /* AccountOptionsList.swift in Sources */,
 				BDECBBE72D43CC13006F7816 /* DropdownPicker.swift in Sources */,
 				BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */,
 				BDECBBE42D43CC13006F7816 /* AlertManager.swift in Sources */,
 				BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */,
+				BDDC5CE32D48D8400086B32B /* CartModel.swift in Sources */,
 				BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */,
+				BDDC5CEA2D48DD2A0086B32B /* PaymentMethodListView.swift in Sources */,
 				BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */,
 				BD21CB052D48949600AF1186 /* MyAccountViewModel.swift in Sources */,
 				BDECBBAE2D43CB7A006F7816 /* SceneDelegate.swift in Sources */,
