@@ -81,6 +81,7 @@ struct CartView: View {
                     CommonButton(title: cart.placeOrder, action: {}, horizontalPadding: 0, verticalPadding: 0)
                 }.frame(alignment: .center)
             }.padding(16)
+                .padding(.bottom, 8)
                 .background(Color.white)
             
         }.background(Color(UIColor.appclrF2F2F2))

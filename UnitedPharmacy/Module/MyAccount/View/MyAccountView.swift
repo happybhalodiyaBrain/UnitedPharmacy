@@ -40,8 +40,8 @@ struct MyAccountView: View {
                 
                 // Sign In & Sign Up Buttons
                 HStack(spacing: 16) {
-                    HorizontalButton(title: myAccountView.signIn, icon: Icons.ic_signIn.rawValue, action: {})
-                    HorizontalButton(title: myAccountView.signUp, icon: Icons.ic_signUp.rawValue, action: {})
+                    HorizontalButton(title: myAccountView.signIn, icon: Icons.ic_signIn.rawValue, action: viewModel.signInTapped)
+                    HorizontalButton(title: myAccountView.signUp, icon: Icons.ic_signUp.rawValue, action: viewModel.signUpTapped)
                 }
                 
                 // Language Selection Row
@@ -55,4 +55,9 @@ struct MyAccountView: View {
         .background(Color(UIColor.appclrF1F1F1))
         
     }
+}
+
+
+#Preview {
+    return MyAccountView()
 }

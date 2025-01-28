@@ -38,6 +38,10 @@ class MyAccountViewModel: ObservableObject {
         AccountOption(iconName: Icons.ic_faq.rawValue, title: myAccountView.faq),
         AccountOption(iconName: Icons.ic_aboutUs.rawValue, title: myAccountView.aboutUs)
     ]
-    
-   
+    func signInTapped () {
+        
+    }
+    func signUpTapped() {
+        
+    }
 }
