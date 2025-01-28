@@ -8,7 +8,8 @@ struct ContactUsView: View {
     var body: some View {
         VStack{
             // Header section with a customizable title, back button, and other optional UI elements.
-            CustomHeader(greetingText: Header.contactUs, onBackTapped: {}, showRightButtons: false, showBackButton: true, cartBadgeCount: 01, isShowingFiler: false)
+            CustomHeader(greetingText: Header.contactUs, onBackTapped: {}, showRightButtons: false, showBackButton: true, cartBadgeCount: 01, isShowingFiler: false,
+                         isShowWishListbtn:false)
             // A reusable top tab view for switching between "Get in Touch" and "Contact Information".
             TopTabView(
                 selectedTab:  $viewModel.selectedTab,

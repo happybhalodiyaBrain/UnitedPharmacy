@@ -11,6 +11,7 @@ import Foundation
 /// A struct containing static constants for various header titles used across the app.
 struct Header {
     static let contactUs = "Contact Us"
+    static let myAccount = "My Account"
 }
 
 struct InputFields {
@@ -56,4 +57,21 @@ struct thankYouView {
     static let paymentMethod = "PAYMENT METHOD"
     static let totalAmount = "Total Amount"
     static let continueShopping = "Continue Shopping"
+}
+
+struct myAccountView {
+    static let hello = "Hello!"
+    static let welcometoUnitedpharmacy = "Welcome to Unitedpharmacy"
+    static let signIn = "Sign In"
+    static let signUp = "Sign Up"
+    static let language = "Language"
+    static let en = "En"
+    static let storeLocation = "Store Location"
+    static let ordersAndReturns = "Orders and Returns"
+    static let contactUs = "Contact Us"
+    static let termsCondition = "Terms & Condition"
+    static let privacyPolicy = "Privacy Policy"
+    static let faq = "FAQ"
+    static let aboutUs = "About Us"
+   
 }

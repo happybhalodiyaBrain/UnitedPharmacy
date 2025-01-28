@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD21CB012D48947E00AF1186 /* MyAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB002D48947E00AF1186 /* MyAccountCoordinator.swift */; };
+		BD21CB032D48948900AF1186 /* MyAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB022D48948900AF1186 /* MyAccountModel.swift */; };
+		BD21CB052D48949600AF1186 /* MyAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB042D48949600AF1186 /* MyAccountViewModel.swift */; };
+		BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB062D4894A000AF1186 /* MyAccountView.swift */; };
+		BD21CB092D489E5F00AF1186 /* HorizontalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */; };
+		BD21CB0C2D48AA7900AF1186 /* AccountOptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */; };
 		BDB6C9322D47497500397170 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9312D47497500397170 /* ThankYouView.swift */; };
 		BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9332D47498700397170 /* ThankYouViewModel.swift */; };
 		BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9352D47499200397170 /* ThankYouModel.swift */; };
@@ -45,6 +51,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD21CB002D48947E00AF1186 /* MyAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountCoordinator.swift; sourceTree = "<group>"; };
+		BD21CB022D48948900AF1186 /* MyAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountModel.swift; sourceTree = "<group>"; };
+		BD21CB042D48949600AF1186 /* MyAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewModel.swift; sourceTree = "<group>"; };
+		BD21CB062D4894A000AF1186 /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
+		BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalButton.swift; sourceTree = "<group>"; };
+		BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOptionsList.swift; sourceTree = "<group>"; };
 		BDB6C9312D47497500397170 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		BDB6C9332D47498700397170 /* ThankYouViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewModel.swift; sourceTree = "<group>"; };
 		BDB6C9352D47499200397170 /* ThankYouModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouModel.swift; sourceTree = "<group>"; };
@@ -95,6 +107,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD21CAFB2D4893F800AF1186 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				BD21CAFF2D48941700AF1186 /* Coordinator */,
+				BD21CAFE2D48941400AF1186 /* Model */,
+				BD21CAFD2D48941100AF1186 /* ViewModel */,
+				BD21CAFC2D48940800AF1186 /* View */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		BD21CAFC2D48940800AF1186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD21CB0A2D48AA6D00AF1186 /* Section */,
+				BD21CB062D4894A000AF1186 /* MyAccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD21CAFD2D48941100AF1186 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD21CB042D48949600AF1186 /* MyAccountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD21CAFE2D48941400AF1186 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD21CB022D48948900AF1186 /* MyAccountModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD21CAFF2D48941700AF1186 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD21CB002D48947E00AF1186 /* MyAccountCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BD21CB0A2D48AA6D00AF1186 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
 		BDB6C92C2D47492600397170 /* ThankYou */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +270,7 @@
 				BDECBBC82D43CC13006F7816 /* DropdownPicker.swift */,
 				BDECBBC92D43CC13006F7816 /* FloatingTextField.swift */,
 				BDECBBCA2D43CC13006F7816 /* TopTabView.swift */,
+				BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */,
 			);
 			path = CommonView;
 			sourceTree = "<group>";
@@ -304,6 +369,7 @@
 		BDECBBE22D43CC13006F7816 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				BD21CAFB2D4893F800AF1186 /* MyAccount */,
 				BDB6C92C2D47492600397170 /* ThankYou */,
 				BDECBBE12D43CC13006F7816 /* ContactUS */,
 			);
@@ -398,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD21CB032D48948900AF1186 /* MyAccountModel.swift in Sources */,
 				BDECBBED2D43CC13006F7816 /* Color + Extensions.swift in Sources */,
 				BDECBBE52D43CC13006F7816 /* CommonButton.swift in Sources */,
 				BDECBBEE2D43CC13006F7816 /* Text + Extensions.swift in Sources */,
@@ -406,6 +473,7 @@
 				BDECBBF22D43CC13006F7816 /* ContactInformationView.swift in Sources */,
 				BDECBBEF2D43CC13006F7816 /* Text + Modifier.swift in Sources */,
 				BDECBBF32D43CC13006F7816 /* GetInTouchView.swift in Sources */,
+				BD21CB012D48947E00AF1186 /* MyAccountCoordinator.swift in Sources */,
 				BDB6C9382D47499F00397170 /* ThankYouCoordinator.swift in Sources */,
 				BDECBBE62D43CC13006F7816 /* CustomHeader.swift in Sources */,
 				BDECBBF12D43CC13006F7816 /* ContactUsModel.swift in Sources */,
@@ -419,11 +487,15 @@
 				BDECBBB02D43CB7A006F7816 /* ViewController.swift in Sources */,
 				BDECBBEB2D43CC13006F7816 /* FontConstant.swift in Sources */,
 				BDECBBEC2D43CC13006F7816 /* ImageConstant.swift in Sources */,
+				BD21CB092D489E5F00AF1186 /* HorizontalButton.swift in Sources */,
+				BD21CB0C2D48AA7900AF1186 /* AccountOptionsList.swift in Sources */,
 				BDECBBE72D43CC13006F7816 /* DropdownPicker.swift in Sources */,
 				BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */,
 				BDECBBE42D43CC13006F7816 /* AlertManager.swift in Sources */,
 				BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */,
+				BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */,
 				BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */,
+				BD21CB052D48949600AF1186 /* MyAccountViewModel.swift in Sources */,
 				BDECBBAE2D43CB7A006F7816 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

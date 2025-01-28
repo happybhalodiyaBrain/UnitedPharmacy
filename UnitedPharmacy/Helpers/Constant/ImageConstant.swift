@@ -19,6 +19,16 @@ enum Icons : String {
     case dummy = "dummy"
     case rectImage = "rectImage"
     case ic_check = "ic_check"
+    case ic_signIn = "ic_signIn"
+    case ic_orders = "ic_orders"
+    case ic_language = "ic_language"
+    case ic_signUp = "ic_signUp"
+    case ic_storeLocation = "ic_storeLocation"
+    case ic_contactUs = "ic_contactUs"
+    case ic_termsCondition = "ic_termsCondition"
+    case ic_aboutUs = "ic_aboutUs"
+    case ic_faq = "ic_faq"
+    case ic_privacyPolicy = "ic_privacyPolicy"
 }
 
 enum ContactUsImages : String {

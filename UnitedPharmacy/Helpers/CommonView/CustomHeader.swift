@@ -18,6 +18,8 @@ struct CustomHeader: View {
     /// Filter button showing in right side
     let isShowingFiler : Bool
     
+    let isShowWishListbtn : Bool
+    
     // MARK: - Body
     var body: some View {
         HStack {
@@ -39,14 +41,16 @@ struct CustomHeader: View {
             if showRightButtons {
                 HStack(spacing: 27) {
                     // Heart Icon Button
-                    Button(action: {
-                        // Heart button action
-                    }) {
-                        Image(systemName: "heart")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 20, height: 20)
-                            .foregroundColor(Color(UIColor.appclr0A195C)) // Change color as needed
+                    if isShowWishListbtn {
+                        Button(action: {
+                            // Heart button action
+                        }) {
+                            Image(systemName: "heart")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 20, height: 20)
+                                .foregroundColor(Color(UIColor.appclr0A195C)) // Change color as needed
+                        }
                     }
                     
                     // Cart Icon Button with Badge
@@ -89,12 +93,12 @@ struct CustomHeader: View {
         .padding(.horizontal)
         .padding(.vertical, 11)
         .background(Color.white) // Customize your background color
-//        .shadow(color: Color.black.opacity(0.2), radius: 2, x: 0, y: 1) // Add shadow below the header
+        .shadow(color: Color.black.opacity(0.2), radius: 2, x: 0, y: 1) // Add shadow below the header
         
         
     }
 }
 
 #Preview {
-    CustomHeader(greetingText: "Notification", onBackTapped: {}, showRightButtons: false, showBackButton : true, cartBadgeCount: 3, isShowingFiler: true)
+    CustomHeader(greetingText: "Notification", onBackTapped: {}, showRightButtons: false, showBackButton : true, cartBadgeCount: 3, isShowingFiler: true, isShowWishListbtn: true)
 }
