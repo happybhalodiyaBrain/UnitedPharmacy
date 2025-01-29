@@ -31,6 +31,8 @@ struct CartView: View {
                 // MARK: - Payment Methods Section
                 CustomSectionHeader(title: cart.paymentMethod)
                 
+                
+                
                 // PaymentMethodListView displays all available payment methods in a scrollable list.
                 PaymentMethodListView(viewModel: CartViewModel(cart: CartModel()), list: viewModel.patmentMethodList)
                     .frame(maxWidth: .infinity)

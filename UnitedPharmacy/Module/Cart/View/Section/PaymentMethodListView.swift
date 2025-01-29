@@ -41,6 +41,8 @@ struct PaymentMethodRow: View {
     /// A Boolean indicating whether the payment method is selected.
     let isSelected: Bool
     
+    let size  = calculateScaledSize(xdWidth: 40, xdHeight: 40)
+    
     var body: some View {
         HStack {
             // Radio button for selection
@@ -62,7 +64,7 @@ struct PaymentMethodRow: View {
                     
                 }
             }.frame(width: .infinity, alignment: .leading)
-            .padding(.leading, 10)
+            .padding(.leading, 8)
             
             Spacer()
             
@@ -73,7 +75,7 @@ struct PaymentMethodRow: View {
                         Image(iconName)
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 40, height: 40)
+                            .frame(width: size.width, height: size.height)
                     }
                 }
             }

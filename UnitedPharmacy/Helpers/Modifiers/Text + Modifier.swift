@@ -18,7 +18,7 @@ struct TextStyle: ViewModifier {
     var size: CGFloat          // The size of the text
     var color: Color           // The color of the text
     var fontName: String      // The font style to be applied
-
+    var lineSpacing: CGFloat = 4 // Default line spacing
     /// Applies the text style to the content.
     ///
     /// - Parameters:
@@ -28,6 +28,7 @@ struct TextStyle: ViewModifier {
         content
             .font(.custom(fontName, size: FontSizeManager.scaledFont(size: size))) // Sets the font with the specified size
             .foregroundColor(color)           // Sets the text color
+            .lineSpacing(lineSpacing) // Applies line spacing
     }
 }
 
@@ -42,8 +43,9 @@ extension View {
     func textStyle(
         size: CGFloat = 13,
         color: Color = .clr000000,
-        fontName: String = FontConstant.Almarai_Regular
+        fontName: String = FontConstant.Almarai_Regular,
+        lineSpacing: CGFloat = 4 // Default line spacing
     ) -> some View {
-        self.modifier(TextStyle(size: size, color: color, fontName: fontName))
+        self.modifier(TextStyle(size: size, color: color, fontName: fontName, lineSpacing: lineSpacing))
     }
 }
