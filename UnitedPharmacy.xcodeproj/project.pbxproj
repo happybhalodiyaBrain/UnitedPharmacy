@@ -13,6 +13,17 @@
 		BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB062D4894A000AF1186 /* MyAccountView.swift */; };
 		BD21CB092D489E5F00AF1186 /* HorizontalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */; };
 		BD21CB0C2D48AA7900AF1186 /* AccountOptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */; };
+		BD7A21172D49F97B0068748E /* NojoomyHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */; };
+		BD7A21192D49F98B0068748E /* NojoomyHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */; };
+		BD7A211B2D49F9940068748E /* NojoomyHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */; };
+		BD7A211D2D49F9A60068748E /* NojoomyHistoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A211C2D49F9A60068748E /* NojoomyHistoryCoordinator.swift */; };
+		BD97FDC52D4B87F90030B0A8 /* MaksabPartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDC42D4B87F90030B0A8 /* MaksabPartnersView.swift */; };
+		BD97FDC72D4B88200030B0A8 /* MaksabPartnersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDC62D4B88200030B0A8 /* MaksabPartnersViewModel.swift */; };
+		BD97FDC92D4B88280030B0A8 /* MaksabPartnersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDC82D4B88280030B0A8 /* MaksabPartnersModel.swift */; };
+		BD97FDCB2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDCA2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift */; };
+		BD97FDCE2D4B8D020030B0A8 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDCD2D4B8D020030B0A8 /* CarouselView.swift */; };
+		BDB1D12E2D4B5D24009FA6BB /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB1D12D2D4B5D24009FA6BB /* TransactionsView.swift */; };
+		BDB1D1302D4B5DA5009FA6BB /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB1D12F2D4B5DA5009FA6BB /* SectionHeaderView.swift */; };
 		BDB6C9322D47497500397170 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9312D47497500397170 /* ThankYouView.swift */; };
 		BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9332D47498700397170 /* ThankYouViewModel.swift */; };
 		BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9352D47499200397170 /* ThankYouModel.swift */; };
@@ -64,6 +75,17 @@
 		BD21CB062D4894A000AF1186 /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
 		BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalButton.swift; sourceTree = "<group>"; };
 		BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOptionsList.swift; sourceTree = "<group>"; };
+		BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryView.swift; sourceTree = "<group>"; };
+		BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryViewModel.swift; sourceTree = "<group>"; };
+		BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryModel.swift; sourceTree = "<group>"; };
+		BD7A211C2D49F9A60068748E /* NojoomyHistoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryCoordinator.swift; sourceTree = "<group>"; };
+		BD97FDC42D4B87F90030B0A8 /* MaksabPartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaksabPartnersView.swift; sourceTree = "<group>"; };
+		BD97FDC62D4B88200030B0A8 /* MaksabPartnersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaksabPartnersViewModel.swift; sourceTree = "<group>"; };
+		BD97FDC82D4B88280030B0A8 /* MaksabPartnersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaksabPartnersModel.swift; sourceTree = "<group>"; };
+		BD97FDCA2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaksabPartnersCoordinator.swift; sourceTree = "<group>"; };
+		BD97FDCD2D4B8D020030B0A8 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		BDB1D12D2D4B5D24009FA6BB /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		BDB1D12F2D4B5DA5009FA6BB /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		BDB6C9312D47497500397170 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		BDB6C9332D47498700397170 /* ThankYouViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewModel.swift; sourceTree = "<group>"; };
 		BDB6C9352D47499200397170 /* ThankYouModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouModel.swift; sourceTree = "<group>"; };
@@ -169,6 +191,111 @@
 			isa = PBXGroup;
 			children = (
 				BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		BD7A21112D49F9260068748E /* NojoomyHistory */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A21152D49F9530068748E /* Coordinator */,
+				BD7A21142D49F9500068748E /* Model */,
+				BD7A21132D49F94C0068748E /* ViewModel */,
+				BD7A21122D49F9480068748E /* View */,
+			);
+			path = NojoomyHistory;
+			sourceTree = "<group>";
+		};
+		BD7A21122D49F9480068748E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDB1D12C2D4B5D15009FA6BB /* Section */,
+				BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD7A21132D49F94C0068748E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD7A21142D49F9500068748E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD7A21152D49F9530068748E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A211C2D49F9A60068748E /* NojoomyHistoryCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BD97FDBF2D4B87250030B0A8 /* MaksabPartners */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDC32D4B87BF0030B0A8 /* Coordinator */,
+				BD97FDC22D4B87BD0030B0A8 /* Model */,
+				BD97FDC12D4B87BB0030B0A8 /* ViewModel */,
+				BD97FDC02D4B87B80030B0A8 /* View */,
+			);
+			path = MaksabPartners;
+			sourceTree = "<group>";
+		};
+		BD97FDC02D4B87B80030B0A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDCC2D4B8CF80030B0A8 /* Section */,
+				BD97FDC42D4B87F90030B0A8 /* MaksabPartnersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD97FDC12D4B87BB0030B0A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDC62D4B88200030B0A8 /* MaksabPartnersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD97FDC22D4B87BD0030B0A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDC82D4B88280030B0A8 /* MaksabPartnersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD97FDC32D4B87BF0030B0A8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDCA2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BD97FDCC2D4B8CF80030B0A8 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDCD2D4B8D020030B0A8 /* CarouselView.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		BDB1D12C2D4B5D15009FA6BB /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				BDB1D12D2D4B5D24009FA6BB /* TransactionsView.swift */,
+				BDB1D12F2D4B5DA5009FA6BB /* SectionHeaderView.swift */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -436,6 +563,8 @@
 		BDECBBE22D43CC13006F7816 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				BD97FDBF2D4B87250030B0A8 /* MaksabPartners */,
+				BD7A21112D49F9260068748E /* NojoomyHistory */,
 				BDDC5CDB2D48D7930086B32B /* Cart */,
 				BD21CAFB2D4893F800AF1186 /* MyAccount */,
 				BDB6C92C2D47492600397170 /* ThankYou */,
@@ -539,20 +668,27 @@
 				BDECBBE52D43CC13006F7816 /* CommonButton.swift in Sources */,
 				BDDC5CF22D48FF0E0086B32B /* OrderSummaryView.swift in Sources */,
 				BDECBBEE2D43CC13006F7816 /* Text + Extensions.swift in Sources */,
+				BDB1D12E2D4B5D24009FA6BB /* TransactionsView.swift in Sources */,
 				BDECBBF42D43CC13006F7816 /* ContactUsView.swift in Sources */,
 				BDECBBF02D43CC13006F7816 /* ContactUsCoordinator.swift in Sources */,
 				BDECBBF22D43CC13006F7816 /* ContactInformationView.swift in Sources */,
 				BDECBBEF2D43CC13006F7816 /* Text + Modifier.swift in Sources */,
+				BD97FDCE2D4B8D020030B0A8 /* CarouselView.swift in Sources */,
 				BDECBBF32D43CC13006F7816 /* GetInTouchView.swift in Sources */,
 				BD21CB012D48947E00AF1186 /* MyAccountCoordinator.swift in Sources */,
+				BD97FDC52D4B87F90030B0A8 /* MaksabPartnersView.swift in Sources */,
 				BDB6C9382D47499F00397170 /* ThankYouCoordinator.swift in Sources */,
 				BDECBBE62D43CC13006F7816 /* CustomHeader.swift in Sources */,
 				BDECBBF12D43CC13006F7816 /* ContactUsModel.swift in Sources */,
 				BDECBBE32D43CC13006F7816 /* ValidationManager.swift in Sources */,
 				BDB6C9322D47497500397170 /* ThankYouView.swift in Sources */,
 				BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */,
+				BD7A211D2D49F9A60068748E /* NojoomyHistoryCoordinator.swift in Sources */,
+				BD97FDCB2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift in Sources */,
 				BDDC5CE12D48D8380086B32B /* CartCoordinator.swift in Sources */,
 				BDECBBEA2D43CC13006F7816 /* AppConstant.swift in Sources */,
+				BD7A21172D49F97B0068748E /* NojoomyHistoryView.swift in Sources */,
+				BDB1D1302D4B5DA5009FA6BB /* SectionHeaderView.swift in Sources */,
 				BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */,
 				BDECBBF52D43CC13006F7816 /* ContactUsViewModel.swift in Sources */,
 				BDECBBE82D43CC13006F7816 /* FloatingTextField.swift in Sources */,
@@ -561,16 +697,20 @@
 				BDECBBEB2D43CC13006F7816 /* FontConstant.swift in Sources */,
 				BDECBBEC2D43CC13006F7816 /* ImageConstant.swift in Sources */,
 				BDDC5CE52D48D84A0086B32B /* CartViewModel.swift in Sources */,
+				BD7A211B2D49F9940068748E /* NojoomyHistoryModel.swift in Sources */,
 				BD21CB092D489E5F00AF1186 /* HorizontalButton.swift in Sources */,
 				BD21CB0C2D48AA7900AF1186 /* AccountOptionsList.swift in Sources */,
+				BD97FDC92D4B88280030B0A8 /* MaksabPartnersModel.swift in Sources */,
 				BDECBBE72D43CC13006F7816 /* DropdownPicker.swift in Sources */,
 				BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */,
 				BDECBBE42D43CC13006F7816 /* AlertManager.swift in Sources */,
 				BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */,
+				BD97FDC72D4B88200030B0A8 /* MaksabPartnersViewModel.swift in Sources */,
 				BDDC5CE32D48D8400086B32B /* CartModel.swift in Sources */,
 				BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */,
 				BDDC5CEA2D48DD2A0086B32B /* PaymentMethodListView.swift in Sources */,
 				BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */,
+				BD7A21192D49F98B0068748E /* NojoomyHistoryViewModel.swift in Sources */,
 				BD21CB052D48949600AF1186 /* MyAccountViewModel.swift in Sources */,
 				BDECBBAE2D43CB7A006F7816 /* SceneDelegate.swift in Sources */,
 			);

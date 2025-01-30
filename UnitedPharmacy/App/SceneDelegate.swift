@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         let navigationController = AppNavigationControllerProvider.makeNavigationController()
-        let mainView = CartCoordinator(navigationController: navigationController).makeView()
+        let mainView = MaksabPartnersCoordinator(navigationController: navigationController).makeView()
         navigationController.setViewControllers([mainView], animated: false)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()

@@ -13,6 +13,8 @@ struct Header {
     static let contactUs = "Contact Us"
     static let myAccount = "My Account"
     static let cart = "Cart (2 Items)"
+    static let nojoomyHistory = "Nojoomy History"
+    static let ourMaksabPartners = "Our Maksab Partners"
 }
 
 struct InputFields {
@@ -88,4 +90,19 @@ struct cart {
     static let Subtotal = "Subtotal"
     static let shippingCharges = "Shipping Charges"
     static let discount = "Discount"
+}
+
+
+struct nojoomyHistory {
+    static let totalPoints = "Total Points"
+    static let totalCredit = "Total Credit"
+    static let redeemPoints = "Redeem Points"
+    static let ourMaksabPartners = "Our Maksab Partners"
+    static let viewAll = "View All"
+    static let maksabHistory = "Maksab History"
+    static let date = "Date"
+    static let change = "Change"
+    static let orderTotal = "Order Total"
+    static let pointsBalance = "Points Balance"
+
 }

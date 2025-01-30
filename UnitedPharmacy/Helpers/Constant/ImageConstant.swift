@@ -29,6 +29,9 @@ enum Icons : String {
     case ic_aboutUs = "ic_aboutUs"
     case ic_faq = "ic_faq"
     case ic_privacyPolicy = "ic_privacyPolicy"
+    case ic_whiteBackButton = "ic_whiteBackButton"
+    case ic_blueForward = "ic_blueForward"
+    case Logo_Aspirin = "Logo_Aspirin"
 }
 
 enum ContactUsImages : String {
@@ -50,4 +53,7 @@ enum cartImages : String {
     case img_clickpay = "img_clickpay"
     case img_logo = "img_logo"
     case img_StcPay = "img_StcPay"
+}
+enum maksubImages : String {
+    case img_banner2 = "img_banner2"
 }
