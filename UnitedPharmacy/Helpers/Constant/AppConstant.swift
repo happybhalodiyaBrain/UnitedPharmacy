@@ -15,6 +15,7 @@ struct Header {
     static let cart = "Cart (2 Items)"
     static let nojoomyHistory = "Nojoomy History"
     static let ourMaksabPartners = "Our Maksab Partners"
+    static let partnerRedeem = "Partner Redeem"
 }
 
 struct InputFields {
@@ -23,6 +24,7 @@ struct InputFields {
     static let txtMobileNo = "Mobile Number*"
     static let txtNote = "What's on your mind?*"
     static let txtEnterDiscountCode = "Enter Discount Code"
+    static let txtRedeemAmount = "Redeem Amount"
 }
 
 struct Buttons {

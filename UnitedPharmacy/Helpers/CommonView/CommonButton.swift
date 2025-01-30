@@ -24,6 +24,12 @@ struct CommonButton: View {
     var horizontalPadding: CGFloat = 16
     /// The vertical padding around the button content. Default is 16.
     var verticalPadding: CGFloat = 16
+    /// The color of the border. Default is transparent.
+    var borderColor: Color = .clear
+    /// The width of the border. Default is 0 (no border).
+    var borderWidth: CGFloat = 0
+    /// The height of button
+    var height : CGFloat = 40
     
     // MARK: - Body
     var body: some View {
@@ -32,12 +38,15 @@ struct CommonButton: View {
         }) {
             // Button label: Text with customized style
             Text(title)
-                .textStyle(size: 16, color: Color(UIColor.appclrFFFFFF),
+                .textStyle(size: 16, color: textColor,
                            fontName: FontConstant.Almarai_Bold)
-                .frame(maxWidth: .infinity)
-                .padding()
+                .frame(maxWidth: .infinity, maxHeight : height)
                 .background(backgroundColor)
                 .cornerRadius(cornerRadius)
+                .overlay(
+                    RoundedRectangle(cornerRadius: cornerRadius)
+                        .stroke(borderColor, lineWidth: borderWidth) // Border with color and width
+                )
         }
         .padding(.horizontal, horizontalPadding)
         .padding(.bottom, verticalPadding)

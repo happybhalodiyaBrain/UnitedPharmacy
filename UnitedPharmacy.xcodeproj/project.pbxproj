@@ -22,6 +22,11 @@
 		BD97FDC92D4B88280030B0A8 /* MaksabPartnersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDC82D4B88280030B0A8 /* MaksabPartnersModel.swift */; };
 		BD97FDCB2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDCA2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift */; };
 		BD97FDCE2D4B8D020030B0A8 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDCD2D4B8D020030B0A8 /* CarouselView.swift */; };
+		BD97FDD52D4B9CF70030B0A8 /* PartnerRedeemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDD42D4B9CF70030B0A8 /* PartnerRedeemView.swift */; };
+		BD97FDD72D4BA6FC0030B0A8 /* PartnerRedeemCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDD62D4BA6FC0030B0A8 /* PartnerRedeemCoordinator.swift */; };
+		BD97FDD92D4BA7040030B0A8 /* PartnerRedeemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDD82D4BA7040030B0A8 /* PartnerRedeemModel.swift */; };
+		BD97FDDB2D4BA70E0030B0A8 /* PartnerRedeemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDDA2D4BA70E0030B0A8 /* PartnerRedeemViewModel.swift */; };
+		BD97FDE22D4BB4B80030B0A8 /* PartnerRedeem2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97FDE12D4BB4B80030B0A8 /* PartnerRedeem2Coordinator.swift */; };
 		BDB1D12E2D4B5D24009FA6BB /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB1D12D2D4B5D24009FA6BB /* TransactionsView.swift */; };
 		BDB1D1302D4B5DA5009FA6BB /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB1D12F2D4B5DA5009FA6BB /* SectionHeaderView.swift */; };
 		BDB6C9322D47497500397170 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9312D47497500397170 /* ThankYouView.swift */; };
@@ -84,6 +89,11 @@
 		BD97FDC82D4B88280030B0A8 /* MaksabPartnersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaksabPartnersModel.swift; sourceTree = "<group>"; };
 		BD97FDCA2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaksabPartnersCoordinator.swift; sourceTree = "<group>"; };
 		BD97FDCD2D4B8D020030B0A8 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		BD97FDD42D4B9CF70030B0A8 /* PartnerRedeemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeemView.swift; sourceTree = "<group>"; };
+		BD97FDD62D4BA6FC0030B0A8 /* PartnerRedeemCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeemCoordinator.swift; sourceTree = "<group>"; };
+		BD97FDD82D4BA7040030B0A8 /* PartnerRedeemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeemModel.swift; sourceTree = "<group>"; };
+		BD97FDDA2D4BA70E0030B0A8 /* PartnerRedeemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeemViewModel.swift; sourceTree = "<group>"; };
+		BD97FDE12D4BB4B80030B0A8 /* PartnerRedeem2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeem2Coordinator.swift; sourceTree = "<group>"; };
 		BDB1D12D2D4B5D24009FA6BB /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		BDB1D12F2D4B5DA5009FA6BB /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		BDB6C9312D47497500397170 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
@@ -289,6 +299,89 @@
 				BD97FDCD2D4B8D020030B0A8 /* CarouselView.swift */,
 			);
 			path = Section;
+			sourceTree = "<group>";
+		};
+		BD97FDCF2D4B9C770030B0A8 /* PartnerRedeem */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDD32D4B9C930030B0A8 /* Coordinator */,
+				BD97FDD22D4B9C900030B0A8 /* Model */,
+				BD97FDD12D4B9C8D0030B0A8 /* ViewModel */,
+				BD97FDD02D4B9C8A0030B0A8 /* View */,
+			);
+			path = PartnerRedeem;
+			sourceTree = "<group>";
+		};
+		BD97FDD02D4B9C8A0030B0A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDD42D4B9CF70030B0A8 /* PartnerRedeemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD97FDD12D4B9C8D0030B0A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDDA2D4BA70E0030B0A8 /* PartnerRedeemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD97FDD22D4B9C900030B0A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDD82D4BA7040030B0A8 /* PartnerRedeemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD97FDD32D4B9C930030B0A8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDD62D4BA6FC0030B0A8 /* PartnerRedeemCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BD97FDDC2D4BB4750030B0A8 /* PartnerRedeem2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDE02D4BB48D0030B0A8 /* Coordinator */,
+				BD97FDDF2D4BB4890030B0A8 /* Model */,
+				BD97FDDE2D4BB4860030B0A8 /* ViewModel */,
+				BD97FDDD2D4BB4820030B0A8 /* View */,
+			);
+			path = PartnerRedeem2;
+			sourceTree = "<group>";
+		};
+		BD97FDDD2D4BB4820030B0A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD97FDDE2D4BB4860030B0A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD97FDDF2D4BB4890030B0A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD97FDE02D4BB48D0030B0A8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD97FDE12D4BB4B80030B0A8 /* PartnerRedeem2Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		BDB1D12C2D4B5D15009FA6BB /* Section */ = {
@@ -563,6 +656,8 @@
 		BDECBBE22D43CC13006F7816 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				BD97FDDC2D4BB4750030B0A8 /* PartnerRedeem2 */,
+				BD97FDCF2D4B9C770030B0A8 /* PartnerRedeem */,
 				BD97FDBF2D4B87250030B0A8 /* MaksabPartners */,
 				BD7A21112D49F9260068748E /* NojoomyHistory */,
 				BDDC5CDB2D48D7930086B32B /* Cart */,
@@ -665,11 +760,14 @@
 			files = (
 				BD21CB032D48948900AF1186 /* MyAccountModel.swift in Sources */,
 				BDECBBED2D43CC13006F7816 /* Color + Extensions.swift in Sources */,
+				BD97FDD92D4BA7040030B0A8 /* PartnerRedeemModel.swift in Sources */,
+				BD97FDDB2D4BA70E0030B0A8 /* PartnerRedeemViewModel.swift in Sources */,
 				BDECBBE52D43CC13006F7816 /* CommonButton.swift in Sources */,
 				BDDC5CF22D48FF0E0086B32B /* OrderSummaryView.swift in Sources */,
 				BDECBBEE2D43CC13006F7816 /* Text + Extensions.swift in Sources */,
 				BDB1D12E2D4B5D24009FA6BB /* TransactionsView.swift in Sources */,
 				BDECBBF42D43CC13006F7816 /* ContactUsView.swift in Sources */,
+				BD97FDD52D4B9CF70030B0A8 /* PartnerRedeemView.swift in Sources */,
 				BDECBBF02D43CC13006F7816 /* ContactUsCoordinator.swift in Sources */,
 				BDECBBF22D43CC13006F7816 /* ContactInformationView.swift in Sources */,
 				BDECBBEF2D43CC13006F7816 /* Text + Modifier.swift in Sources */,
@@ -685,6 +783,7 @@
 				BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */,
 				BD7A211D2D49F9A60068748E /* NojoomyHistoryCoordinator.swift in Sources */,
 				BD97FDCB2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift in Sources */,
+				BD97FDD72D4BA6FC0030B0A8 /* PartnerRedeemCoordinator.swift in Sources */,
 				BDDC5CE12D48D8380086B32B /* CartCoordinator.swift in Sources */,
 				BDECBBEA2D43CC13006F7816 /* AppConstant.swift in Sources */,
 				BD7A21172D49F97B0068748E /* NojoomyHistoryView.swift in Sources */,
@@ -705,6 +804,7 @@
 				BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */,
 				BDECBBE42D43CC13006F7816 /* AlertManager.swift in Sources */,
 				BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */,
+				BD97FDE22D4BB4B80030B0A8 /* PartnerRedeem2Coordinator.swift in Sources */,
 				BD97FDC72D4B88200030B0A8 /* MaksabPartnersViewModel.swift in Sources */,
 				BDDC5CE32D48D8400086B32B /* CartModel.swift in Sources */,
 				BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */,
