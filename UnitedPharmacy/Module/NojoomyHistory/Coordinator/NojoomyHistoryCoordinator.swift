@@ -22,10 +22,23 @@ final class NojoomyHistoryCoordinator {
     // MARK: - Methods
     
     func makeView() -> UIViewController {
-        let viewModel = NojoomyHistoryViewModel(nojoomyHistory: NojoomyHistoryModel())
+        let viewModel = NojoomyHistoryViewModel(nojoomyHistory: NojoomyHistoryModel(),onTapViewAll: pushToMaksubPartnerView,
+                                                onTapRedeemPoints: pushToPartnerRedeemView)
         let view = NojoomyHistoryView(viewModel: viewModel)
         let NojoomyHistoryVC = UIHostingController(rootView: view)
         return NojoomyHistoryVC
         
     }
+    
+    private func pushToMaksubPartnerView() {
+           let coordinator = MaksabPartnersCoordinator(navigationController: navigationController)
+           let view = coordinator.makeView()
+           navigationController?.pushViewController(view, animated: true)
+       }
+    
+    private func pushToPartnerRedeemView() {
+           let coordinator = PartnerRedeemCoordinator(navigationController: navigationController)
+           let view = coordinator.makeView()
+           navigationController?.pushViewController(view, animated: true)
+       }
 }

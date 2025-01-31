@@ -20,7 +20,7 @@ struct MaksabPartnersView: View {
             // MARK: - Custom Header
             CustomHeader(
                 greetingText: Header.ourMaksabPartners,
-                onBackTapped: {},
+                onBackTapped: viewModel.onBackTapped,
                 showRightButtons: false,
                 showBackButton: true,
                 cartBadgeCount: 5,
@@ -56,10 +56,3 @@ struct MaksabPartnersView: View {
     }
 }
 
-#Preview {
-    let maksabPartnersModel = MaksabPartnersModel()
-    let viewModel = MaksabPartnersViewModel(maksabPartners: maksabPartnersModel)
-    
-    return MaksabPartnersView(viewModel: viewModel)
-
-}

@@ -9,8 +9,9 @@ import Foundation
 import UIKit
 import SwiftUI
 
-class NojoomyHistoryViewModel: ObservableObject {
-    
+final class NojoomyHistoryViewModel {
+    private let onTapViewAll: () -> Void
+    private let onTapRedeemPoints : () -> Void
     // MARK: - Published Properties
     
     /// Nojoomy history model instance
@@ -28,8 +29,10 @@ class NojoomyHistoryViewModel: ObservableObject {
         Partner(name: "Aloe", logoName:  Icons.dummy.rawValue)
     ]
     // MARK: - Initializer
-    init(nojoomyHistory: NojoomyHistoryModel) {
+    init(nojoomyHistory: NojoomyHistoryModel, onTapViewAll: @escaping () -> Void, onTapRedeemPoints : @escaping () -> Void) {
         self.nojoomyHistory = nojoomyHistory
+        self.onTapViewAll = onTapViewAll
+        self.onTapRedeemPoints = onTapRedeemPoints
         fetchTransactions()
     }
     // MARK: - Data Fetching
@@ -49,12 +52,17 @@ class NojoomyHistoryViewModel: ObservableObject {
     }
     // MARK: - User Interaction
     /// Handles the user action for redeeming points
-    func onTapRedeemPoints () {
-        
+    func onTappedRedeemPoints () {
+        onTapRedeemPoints()
     }
     
     /// Handles the view all button
     func onTappedViewAll () {
+        onTapViewAll()
+    }
+    
+    /// Handled the back button
+    func onBackButtonTapped () {
         
     }
 }

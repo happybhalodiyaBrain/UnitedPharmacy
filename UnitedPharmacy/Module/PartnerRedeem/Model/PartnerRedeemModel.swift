@@ -6,9 +6,8 @@
 //
 
 import Foundation
-struct PartnerRedeemModel {
-    
-}
+
+// MARK: - Reward Model
 struct Reward: Identifiable {
     let id: UUID
     let title: String

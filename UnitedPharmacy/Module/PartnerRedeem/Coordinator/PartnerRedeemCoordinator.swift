@@ -34,11 +34,14 @@ final class PartnerRedeemCoordinator {
     ///
     /// - Returns: A `UIViewController` containing the `CartView`.
     func makeView() -> UIViewController {
-        let viewModel = PartnerRedeemViewModel(partnerRedeem: PartnerRedeemModel())
+        let viewModel = PartnerRedeemViewModel(partnerRedeem: PartnerRedeemModel(), onBackTap: popBack)
         let view = PartnerRedeemView(viewModel: viewModel)
         let partnerRedeemVC = UIHostingController(rootView: view)
         return partnerRedeemVC
         
     }
-    
+    // MARK: - On back button tap
+    private func popBack() {
+           navigationController?.popViewController(animated: true)
+       }
 }

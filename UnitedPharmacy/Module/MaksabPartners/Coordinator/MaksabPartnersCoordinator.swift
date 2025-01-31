@@ -22,10 +22,13 @@ final class MaksabPartnersCoordinator {
     // MARK: - Methods
     
     func makeView() -> UIViewController {
-        let viewModel = MaksabPartnersViewModel(maksabPartners: MaksabPartnersModel())
+        let viewModel = MaksabPartnersViewModel(maksabPartners: MaksabPartnersModel(),  onBackTap: popBack)
         let view = MaksabPartnersView(viewModel: viewModel)
         let MaksabPartnersVC = UIHostingController(rootView: view)
         return MaksabPartnersVC
         
     }
+    private func popBack() {
+           navigationController?.popViewController(animated: true)
+       }
 }

@@ -25,11 +25,16 @@ struct InputFields {
     static let txtNote = "What's on your mind?*"
     static let txtEnterDiscountCode = "Enter Discount Code"
     static let txtRedeemAmount = "Redeem Amount"
+    static let txtAlFursanMembershipNumber = "AlFursan Membership Number*"
+    static let txtAddMaksabPoints = "Add Maksab Points*"
 }
 
 struct Buttons {
     static let btn_submit = "Submit"
     static let btn_apply = "APPLY"
+    static let btnRedeem = "Redeem"
+    static let btnTotalPoints = "Total Points"
+    static let btnPartialPoints = "Partial Points"
 }
 
 struct ErrorMessages {
@@ -107,4 +112,10 @@ struct nojoomyHistory {
     static let orderTotal = "Order Total"
     static let pointsBalance = "Points Balance"
 
+}
+
+
+struct  partnerRedeem {
+    static let maksabTotalPoints = "Maksab Total Points"
+    static let redeemMaksabPoints = "Redeem Maksab Points"
 }

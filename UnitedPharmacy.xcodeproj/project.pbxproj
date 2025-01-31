@@ -13,6 +13,9 @@
 		BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB062D4894A000AF1186 /* MyAccountView.swift */; };
 		BD21CB092D489E5F00AF1186 /* HorizontalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */; };
 		BD21CB0C2D48AA7900AF1186 /* AccountOptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */; };
+		BD2279622D4C887A0017B24A /* PartnerRedeem2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279612D4C887A0017B24A /* PartnerRedeem2Model.swift */; };
+		BD2279642D4C88860017B24A /* PartnerRedeem2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279632D4C88860017B24A /* PartnerRedeem2ViewModel.swift */; };
+		BD2279662D4C88920017B24A /* PartnerRedeem2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279652D4C88920017B24A /* PartnerRedeem2View.swift */; };
 		BD7A21172D49F97B0068748E /* NojoomyHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */; };
 		BD7A21192D49F98B0068748E /* NojoomyHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */; };
 		BD7A211B2D49F9940068748E /* NojoomyHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */; };
@@ -80,6 +83,9 @@
 		BD21CB062D4894A000AF1186 /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
 		BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalButton.swift; sourceTree = "<group>"; };
 		BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOptionsList.swift; sourceTree = "<group>"; };
+		BD2279612D4C887A0017B24A /* PartnerRedeem2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeem2Model.swift; sourceTree = "<group>"; };
+		BD2279632D4C88860017B24A /* PartnerRedeem2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeem2ViewModel.swift; sourceTree = "<group>"; };
+		BD2279652D4C88920017B24A /* PartnerRedeem2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeem2View.swift; sourceTree = "<group>"; };
 		BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryView.swift; sourceTree = "<group>"; };
 		BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryViewModel.swift; sourceTree = "<group>"; };
 		BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryModel.swift; sourceTree = "<group>"; };
@@ -358,6 +364,7 @@
 		BD97FDDD2D4BB4820030B0A8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD2279652D4C88920017B24A /* PartnerRedeem2View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -365,6 +372,7 @@
 		BD97FDDE2D4BB4860030B0A8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BD2279632D4C88860017B24A /* PartnerRedeem2ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -372,6 +380,7 @@
 		BD97FDDF2D4BB4890030B0A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD2279612D4C887A0017B24A /* PartnerRedeem2Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -768,6 +777,7 @@
 				BDB1D12E2D4B5D24009FA6BB /* TransactionsView.swift in Sources */,
 				BDECBBF42D43CC13006F7816 /* ContactUsView.swift in Sources */,
 				BD97FDD52D4B9CF70030B0A8 /* PartnerRedeemView.swift in Sources */,
+				BD2279642D4C88860017B24A /* PartnerRedeem2ViewModel.swift in Sources */,
 				BDECBBF02D43CC13006F7816 /* ContactUsCoordinator.swift in Sources */,
 				BDECBBF22D43CC13006F7816 /* ContactInformationView.swift in Sources */,
 				BDECBBEF2D43CC13006F7816 /* Text + Modifier.swift in Sources */,
@@ -803,6 +813,8 @@
 				BDECBBE72D43CC13006F7816 /* DropdownPicker.swift in Sources */,
 				BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */,
 				BDECBBE42D43CC13006F7816 /* AlertManager.swift in Sources */,
+				BD2279662D4C88920017B24A /* PartnerRedeem2View.swift in Sources */,
+				BD2279622D4C887A0017B24A /* PartnerRedeem2Model.swift in Sources */,
 				BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */,
 				BD97FDE22D4BB4B80030B0A8 /* PartnerRedeem2Coordinator.swift in Sources */,
 				BD97FDC72D4B88200030B0A8 /* MaksabPartnersViewModel.swift in Sources */,

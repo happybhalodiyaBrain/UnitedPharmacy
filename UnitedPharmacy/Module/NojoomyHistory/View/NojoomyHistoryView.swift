@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NojoomyHistoryView: View {
-    @ObservedObject var viewModel: NojoomyHistoryViewModel
+    let viewModel: NojoomyHistoryViewModel
     var body: some View {
         VStack{
             // MARK: - Header Section
@@ -17,6 +17,9 @@ struct NojoomyHistoryView: View {
                     .scaledToFit()
                     .padding(.leading, 10)
                     .padding(.bottom, 22)
+                    .onTapGesture {
+                            viewModel.onBackButtonTapped()
+                        }
                 
                 Text(Header.nojoomyHistory)
                     .textStyle(size: 14, color: Color(UIColor.appclrFFFFFF),
@@ -68,7 +71,7 @@ struct NojoomyHistoryView: View {
                     .background(Color(UIColor.appclrEFF9FF)) // Light blue background
                 
                 Button(action: {
-                    viewModel.onTapRedeemPoints()
+                    viewModel.onTappedRedeemPoints()
                 }) {
                     HStack {
                         Text(nojoomyHistory.redeemPoints)
@@ -130,11 +133,5 @@ struct NojoomyHistoryView: View {
         Spacer()
         
     }
-}
-#Preview {
-    let nojoomyHistoryModel = NojoomyHistoryModel()
-    let viewModel = NojoomyHistoryViewModel(nojoomyHistory: nojoomyHistoryModel)
-    
-    return NojoomyHistoryView(viewModel: viewModel)
 }
 

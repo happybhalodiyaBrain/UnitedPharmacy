@@ -10,7 +10,7 @@ import UIKit
 import SwiftUI
 
 class MaksabPartnersViewModel: ObservableObject {
-    
+    private let onBackTap: () -> Void
     // MARK: - Published Properties
     
    
@@ -38,9 +38,14 @@ class MaksabPartnersViewModel: ObservableObject {
     
     
     // MARK: - Initializer
-    init(maksabPartners: MaksabPartnersModel) {
+    init(maksabPartners: MaksabPartnersModel, onBackTap: @escaping () -> Void ) {
         self.maksabPartners = maksabPartners
+        self.onBackTap = onBackTap
        
+    }
+    // MARK: - Back Button Tapped
+    func onBackTapped () {
+        onBackTap()
     }
   
 }
