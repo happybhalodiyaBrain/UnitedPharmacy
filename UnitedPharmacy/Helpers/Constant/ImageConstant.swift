@@ -57,3 +57,9 @@ enum cartImages : String {
 enum maksubImages : String {
     case img_banner2 = "img_banner2"
 }
+
+enum spin :String {
+    case img_fortuneWheel = "img_fortuneWheel"
+    case img_spinPin = "img_spinPin"
+    case img_wheelCircle = "img_wheelCircle"
+}

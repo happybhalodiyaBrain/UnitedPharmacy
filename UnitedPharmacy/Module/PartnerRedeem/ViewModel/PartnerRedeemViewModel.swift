@@ -18,7 +18,7 @@ class PartnerRedeemViewModel: ObservableObject {
     private let onBackTap: () -> Void
     
     /// The model containing redeem-related data
-    @Published var partnerRedeem: Reward
+    @Published var partnerRedeem: PartnerRedeemModel
     /// The amount the user wants to redeem.
     @State var redeemAmount: String = ""
     /// The total Maksab points available for redemption.
@@ -38,7 +38,7 @@ class PartnerRedeemViewModel: ObservableObject {
     /// - Parameters:
     ///   - partnerRedeem: The model containing redeem-related data.
     ///   - onBackTap: Closure to handle the back button action.
-    init(partnerRedeem: Reward, onBackTap:  @escaping () -> Void) {
+    init(partnerRedeem: PartnerRedeemModel, onBackTap:  @escaping () -> Void) {
         self.partnerRedeem = partnerRedeem
         self.onBackTap = onBackTap
     }

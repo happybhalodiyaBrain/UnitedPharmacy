@@ -16,6 +16,10 @@
 		BD2279622D4C887A0017B24A /* PartnerRedeem2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279612D4C887A0017B24A /* PartnerRedeem2Model.swift */; };
 		BD2279642D4C88860017B24A /* PartnerRedeem2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279632D4C88860017B24A /* PartnerRedeem2ViewModel.swift */; };
 		BD2279662D4C88920017B24A /* PartnerRedeem2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279652D4C88920017B24A /* PartnerRedeem2View.swift */; };
+		BD22796D2D4CC9170017B24A /* FortuneWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22796C2D4CC9170017B24A /* FortuneWheelView.swift */; };
+		BD22796F2D4CCB220017B24A /* FortuneWheelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22796E2D4CCB220017B24A /* FortuneWheelViewModel.swift */; };
+		BD2279712D4CCB290017B24A /* FortuneWheelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279702D4CCB290017B24A /* FortuneWheelModel.swift */; };
+		BD2279732D4CCB400017B24A /* FortuneWheelCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279722D4CCB400017B24A /* FortuneWheelCoordinator.swift */; };
 		BD7A21172D49F97B0068748E /* NojoomyHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */; };
 		BD7A21192D49F98B0068748E /* NojoomyHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */; };
 		BD7A211B2D49F9940068748E /* NojoomyHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */; };
@@ -86,6 +90,10 @@
 		BD2279612D4C887A0017B24A /* PartnerRedeem2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeem2Model.swift; sourceTree = "<group>"; };
 		BD2279632D4C88860017B24A /* PartnerRedeem2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeem2ViewModel.swift; sourceTree = "<group>"; };
 		BD2279652D4C88920017B24A /* PartnerRedeem2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRedeem2View.swift; sourceTree = "<group>"; };
+		BD22796C2D4CC9170017B24A /* FortuneWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelView.swift; sourceTree = "<group>"; };
+		BD22796E2D4CCB220017B24A /* FortuneWheelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelViewModel.swift; sourceTree = "<group>"; };
+		BD2279702D4CCB290017B24A /* FortuneWheelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelModel.swift; sourceTree = "<group>"; };
+		BD2279722D4CCB400017B24A /* FortuneWheelCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelCoordinator.swift; sourceTree = "<group>"; };
 		BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryView.swift; sourceTree = "<group>"; };
 		BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryViewModel.swift; sourceTree = "<group>"; };
 		BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryModel.swift; sourceTree = "<group>"; };
@@ -209,6 +217,49 @@
 				BD21CB0B2D48AA7900AF1186 /* AccountOptionsList.swift */,
 			);
 			path = Section;
+			sourceTree = "<group>";
+		};
+		BD2279672D4CC8D80017B24A /* FortuneWheel */ = {
+			isa = PBXGroup;
+			children = (
+				BD22796B2D4CC8F40017B24A /* Coordinator */,
+				BD22796A2D4CC8F10017B24A /* Model */,
+				BD2279692D4CC8EE0017B24A /* ViewModel */,
+				BD2279682D4CC8EB0017B24A /* View */,
+			);
+			path = FortuneWheel;
+			sourceTree = "<group>";
+		};
+		BD2279682D4CC8EB0017B24A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD22796C2D4CC9170017B24A /* FortuneWheelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD2279692D4CC8EE0017B24A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD22796E2D4CCB220017B24A /* FortuneWheelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD22796A2D4CC8F10017B24A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD2279702D4CCB290017B24A /* FortuneWheelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD22796B2D4CC8F40017B24A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD2279722D4CCB400017B24A /* FortuneWheelCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		BD7A21112D49F9260068748E /* NojoomyHistory */ = {
@@ -665,6 +716,7 @@
 		BDECBBE22D43CC13006F7816 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				BD2279672D4CC8D80017B24A /* FortuneWheel */,
 				BD97FDDC2D4BB4750030B0A8 /* PartnerRedeem2 */,
 				BD97FDCF2D4B9C770030B0A8 /* PartnerRedeem */,
 				BD97FDBF2D4B87250030B0A8 /* MaksabPartners */,
@@ -795,8 +847,11 @@
 				BD97FDCB2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift in Sources */,
 				BD97FDD72D4BA6FC0030B0A8 /* PartnerRedeemCoordinator.swift in Sources */,
 				BDDC5CE12D48D8380086B32B /* CartCoordinator.swift in Sources */,
+				BD2279732D4CCB400017B24A /* FortuneWheelCoordinator.swift in Sources */,
 				BDECBBEA2D43CC13006F7816 /* AppConstant.swift in Sources */,
 				BD7A21172D49F97B0068748E /* NojoomyHistoryView.swift in Sources */,
+				BD22796F2D4CCB220017B24A /* FortuneWheelViewModel.swift in Sources */,
+				BD22796D2D4CC9170017B24A /* FortuneWheelView.swift in Sources */,
 				BDB1D1302D4B5DA5009FA6BB /* SectionHeaderView.swift in Sources */,
 				BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */,
 				BDECBBF52D43CC13006F7816 /* ContactUsViewModel.swift in Sources */,
@@ -824,6 +879,7 @@
 				BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */,
 				BD7A21192D49F98B0068748E /* NojoomyHistoryViewModel.swift in Sources */,
 				BD21CB052D48949600AF1186 /* MyAccountViewModel.swift in Sources */,
+				BD2279712D4CCB290017B24A /* FortuneWheelModel.swift in Sources */,
 				BDECBBAE2D43CB7A006F7816 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

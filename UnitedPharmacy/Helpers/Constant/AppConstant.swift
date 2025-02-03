@@ -35,6 +35,8 @@ struct Buttons {
     static let btnRedeem = "Redeem"
     static let btnTotalPoints = "Total Points"
     static let btnPartialPoints = "Partial Points"
+    static let btnSpin = "Spin"
+    static let btnCancel = "Cancel"
 }
 
 struct ErrorMessages {

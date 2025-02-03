@@ -6,6 +6,9 @@
 //
 
 import Foundation
+struct PartnerRedeemModel {
+    
+}
 
 // MARK: - Reward Model
 struct Reward: Identifiable {
