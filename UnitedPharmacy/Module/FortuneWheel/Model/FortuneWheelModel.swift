@@ -6,6 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
 struct FortuneWheelModel {
    
+}
+struct Segment {
+    /// A unique identifier for the segment.
+    let id = UUID()
+    /// The label displayed on the segment.
+       let label: String
+    /// The color associated with the segment.
+       let color: Color
 }

@@ -2,114 +2,131 @@ import SwiftUI
 
 struct FortuneWheelView: View {
     @ObservedObject var viewModel: FortuneWheelViewModel
-    @State var rotation: CGFloat = 0.0
-    
     
     var body: some View {
-        VStack{
-            ZStack{
-                Image(spin.img_fortuneWheel.rawValue)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(maxWidth: .infinity, maxHeight: 376)
-                    .clipped()
-                
-            }
-            
-            ZStack {
-                // Wheel Base
-                ForEach(0..<5) { index in
-                    SegmentView(index: index)
-                        .rotationEffect(Angle(degrees: Double(index) * 72)) // Rotate each segment
-                }.overlay(
-                    Circle()
-                        .stroke(Color.white, lineWidth: 10)
-                )
-                
-                // Central Button
-                Circle()
-                    .fill(Color.red)
-                    .frame(width: 55, height: 55)
-                    .overlay(
+        ScrollView{
+            VStack{
+                // MARK: - Background Image
+                ZStack{
+                    Image(spin.img_fortuneWheel.rawValue)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(maxWidth: .infinity)
+                        .clipped()
+                }
+                // MARK: - Wheel Base and Segments
+                ZStack {
+                    // Wheel Base
+                    ForEach(0..<viewModel.segments.count) { index in
+                        SegmentView(segment: viewModel.segments[index], segmentList: viewModel.segments )
+                            .rotationEffect(.degrees(Double(index) * (360.0 / Double(viewModel.segments.count))))
+                    }.overlay(
                         Circle()
-                            .stroke(Color.white, lineWidth: 8)
+                            .stroke(Color.white, lineWidth: 10)
                     )
-                
+                    
+                    // Central Button
+                    Circle()
+                        .fill(Color.red)
+                        .frame(width: 55, height: 55)
+                        .overlay(
+                            Circle()
+                                .stroke(Color.white, lineWidth: 8)
+                        )
+                }
+                .frame(width: 250, height: 250)
+                .rotationEffect(Angle(degrees: viewModel.rotation))
+                .animation(.easeOut(duration: viewModel.isSpinning ? 4 : 0), value: viewModel.rotation)
+                // MARK: - Spin Pin
+
                 Image(spin.img_spinPin.rawValue)
                     .resizable()
                     .frame(width: 30, height: 48)
-                    .offset(y: -145)
+                    .offset(y: -310)
                 
-            }
-            .frame(width: 250, height: 250)
-            .rotationEffect(Angle(degrees: rotation)) // Apply rotation to spin the wheel
-            .animation(.easeOut(duration: 2), value: rotation) // Add animation
-            VStack{
-                CommonButton(title: Buttons.btnSpin, action: {})
-            }.padding(.top, 50)
-            
-            VStack{
-                CommonButton(title: Buttons.btnCancel, action: {}, backgroundColor: .clear, textColor: Color(UIColor.appclr0A195C))
-            }.padding(.top, 5)
-            Spacer()
-            
-            
-        }.ignoresSafeArea()
-            .background(Color(UIColor.appclrEFF9FF))
-    }
-    
-}
-
-// MARK: - Segment View
-struct SegmentView: View {
-    let index: Int
-    let colors: [Color] = [
-        Color(UIColor.appclrE87D24),
-        Color(UIColor.appclr129E8B),
-        Color(UIColor.appclr297FB8),
-        Color(UIColor.appclr884A9D),
-        Color(UIColor.appclrE14E3E)]
-    let labels: [String] = ["50%", "10%", "20%", "30%", "40%"]
-    
-    var body: some View {
-        GeometryReader { geometry in
-            ZStack {
-                // Segment Shape
-                Path { path in
-                    let rect = geometry.size
-                    let center = CGPoint(x: rect.width / 2, y: rect.height / 2)
-                    path.move(to: center)
-                    path.addArc(
-                        center: center,
-                        radius: rect.width / 2,
-                        startAngle: .degrees(0),
-                        endAngle: .degrees(72),
-                        clockwise: false
-                    )
-                }
-                .fill(colors[index])
-                
+                // MARK: - Spin Button
                 VStack{
-                    // Segment Label
-                    Text(labels[index])
-                        .textStyle(size: 26, color: Color(UIColor.appclrFFFFFF),
-                                   fontName: FontConstant.Almarai_Bold)
-                        .offset(x: -geometry.size.width / 9, y: -geometry.size.width / 4)
-                    Text("OFF")
-                        .textStyle(size: 20, color: Color(UIColor.appclrFFFFFF),
-                                   fontName: FontConstant.Almarai_Bold)
-                        .offset(x: -geometry.size.width / 9, y: -geometry.size.width / 4)
+                    CommonButton(title: Buttons.btnSpin, action: { viewModel.spinWheel() })
+                
+                // MARK: - Cancel Button
+                    CommonButton(title: Buttons.btnCancel, action: viewModel.onTapCancle, backgroundColor: .clear, textColor: Color(UIColor.appclr0A195C))
+                }.padding(.top, 5)
+                
+                Spacer()
+                
+                
+            }.ignoresSafeArea()
+                .background(Color(UIColor.appclrEFF9FF))
+                .sheet(isPresented: $viewModel.isShowAlert) {
+                    // MARK: - Alert Views
+                    switch viewModel.alertType {
+                    case spinValue.betterLuckAlert:
+                        CustomAlertView(
+                            emoji: "😊",
+                            title: spinValue.sorry,
+                            message: spinValue.betterLuck,
+                            subtitle: spinValue.nextTime,
+                            buttonText: Buttons.btnOk,
+                            alertView: .betterLuck
+                        ) {
+                            viewModel.closeAlert()
+                        }
+                        .onPreferenceChange(InnerHeightPreferenceKey.self) { newHeight in
+                            viewModel.sheetHeight = newHeight
+                        }
+                        .presentationDetents([.height(viewModel.sheetHeight)])
+                        .cornerRadius(24)
+                    case spinValue.TryAgainAlert:
+                        CustomAlertView(
+                            emoji: "😊",
+                            title: spinValue.opps,
+                            message: spinValue.tryAgain,
+                            subtitle: "",
+                            buttonText: Buttons.btnTryAgain,
+                            alertView: .lost
+                        ) {
+                            viewModel.closeAlert()
+                        }
+                        .onPreferenceChange(InnerHeightPreferenceKey.self) { newHeight in
+                            viewModel.sheetHeight = newHeight
+                        }
+                        .presentationDetents([.height(viewModel.sheetHeight)])
+                        
+                    case spinValue.wonAlert :
+                        CustomAlertView(
+                            emoji: "😊",
+                            title: "",
+                            message: "",
+                            subtitle: viewModel.selectedSegment,
+                            buttonText: Buttons.btnViewDetails,
+                            alertView: .won
+                        ) {
+                            viewModel.closeAlert()
+                        }
+                        .onPreferenceChange(InnerHeightPreferenceKey.self) { newHeight in
+                            viewModel.sheetHeight = newHeight
+                        }
+                        .presentationDetents([.height(550)])
+                    default:
+                        EmptyView()
+                    }
                 }
-                .rotationEffect(.degrees(149))
-            }
-        }
-        .frame(width: 310, height: 310)
-        .rotationEffect(.degrees(-55)) // Center the text properly
-        
+            
+            
+            
+        }.frame(minHeight: UIScreen.main.bounds.height )
+            .scrollIndicators(.hidden)
+            .ignoresSafeArea()
     }
-    
 }
 
+/// A preference key to track the height of the alert view.
+struct InnerHeightPreferenceKey: PreferenceKey {
+    static let defaultValue: CGFloat = .zero
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
+        value = nextValue()
+    }
+}
 
 #Preview {
     let fortuneWheelModel = FortuneWheelModel()

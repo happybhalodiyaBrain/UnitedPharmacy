@@ -37,6 +37,9 @@ struct Buttons {
     static let btnPartialPoints = "Partial Points"
     static let btnSpin = "Spin"
     static let btnCancel = "Cancel"
+    static let btnOk = "OK"
+    static let btnTryAgain = "Try Again"
+    static let btnViewDetails = "View Details"
 }
 
 struct ErrorMessages {
@@ -120,4 +123,17 @@ struct nojoomyHistory {
 struct  partnerRedeem {
     static let maksabTotalPoints = "Maksab Total Points"
     static let redeemMaksabPoints = "Redeem Maksab Points"
+}
+
+
+struct spinValue {
+    static let sorry = "SORRY!"
+    static let betterLuck = "BETTER LUCK\nNEXT TIME!"
+    static let  nextTime = "The next time\nyou must be lucky"
+    static let opps = "OPPS!"
+    static let tryAgain = "TRY\nAGAIN"
+    static let betterLuckAlert = "BetterLuckNext"
+    static let TryAgainAlert = "TryAgain"
+    static let wonAlert = "Won"
+    
 }

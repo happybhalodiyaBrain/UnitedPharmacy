@@ -20,6 +20,11 @@
 		BD22796F2D4CCB220017B24A /* FortuneWheelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22796E2D4CCB220017B24A /* FortuneWheelViewModel.swift */; };
 		BD2279712D4CCB290017B24A /* FortuneWheelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279702D4CCB290017B24A /* FortuneWheelModel.swift */; };
 		BD2279732D4CCB400017B24A /* FortuneWheelCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2279722D4CCB400017B24A /* FortuneWheelCoordinator.swift */; };
+		BD252E252D50A1C900549D09 /* FortuneWheel2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD252E242D50A1C900549D09 /* FortuneWheel2Coordinator.swift */; };
+		BD252E272D50A1D700549D09 /* FortuneWheel2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD252E262D50A1D700549D09 /* FortuneWheel2Model.swift */; };
+		BD252E292D50A1E300549D09 /* FortuneWheel2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD252E282D50A1E300549D09 /* FortuneWheel2ViewModel.swift */; };
+		BD252E2B2D50A1F800549D09 /* FortuneWheel2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD252E2A2D50A1F800549D09 /* FortuneWheel2View.swift */; };
+		BD252E2D2D50D5D900549D09 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD252E2C2D50D5D900549D09 /* CustomAlertView.swift */; };
 		BD7A21172D49F97B0068748E /* NojoomyHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */; };
 		BD7A21192D49F98B0068748E /* NojoomyHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */; };
 		BD7A211B2D49F9940068748E /* NojoomyHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */; };
@@ -40,6 +45,7 @@
 		BDB6C9342D47498700397170 /* ThankYouViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9332D47498700397170 /* ThankYouViewModel.swift */; };
 		BDB6C9362D47499200397170 /* ThankYouModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9352D47499200397170 /* ThankYouModel.swift */; };
 		BDB6C9382D47499F00397170 /* ThankYouCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6C9372D47499F00397170 /* ThankYouCoordinator.swift */; };
+		BDD48D632D52300900728C54 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD48D622D52300900728C54 /* SegmentView.swift */; };
 		BDDC5CE12D48D8380086B32B /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE02D48D8380086B32B /* CartCoordinator.swift */; };
 		BDDC5CE32D48D8400086B32B /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE22D48D8400086B32B /* CartModel.swift */; };
 		BDDC5CE52D48D84A0086B32B /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC5CE42D48D84A0086B32B /* CartViewModel.swift */; };
@@ -94,6 +100,11 @@
 		BD22796E2D4CCB220017B24A /* FortuneWheelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelViewModel.swift; sourceTree = "<group>"; };
 		BD2279702D4CCB290017B24A /* FortuneWheelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelModel.swift; sourceTree = "<group>"; };
 		BD2279722D4CCB400017B24A /* FortuneWheelCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelCoordinator.swift; sourceTree = "<group>"; };
+		BD252E242D50A1C900549D09 /* FortuneWheel2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel2Coordinator.swift; sourceTree = "<group>"; };
+		BD252E262D50A1D700549D09 /* FortuneWheel2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel2Model.swift; sourceTree = "<group>"; };
+		BD252E282D50A1E300549D09 /* FortuneWheel2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel2ViewModel.swift; sourceTree = "<group>"; };
+		BD252E2A2D50A1F800549D09 /* FortuneWheel2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel2View.swift; sourceTree = "<group>"; };
+		BD252E2C2D50D5D900549D09 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		BD7A21162D49F97B0068748E /* NojoomyHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryView.swift; sourceTree = "<group>"; };
 		BD7A21182D49F98B0068748E /* NojoomyHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryViewModel.swift; sourceTree = "<group>"; };
 		BD7A211A2D49F9940068748E /* NojoomyHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NojoomyHistoryModel.swift; sourceTree = "<group>"; };
@@ -114,6 +125,7 @@
 		BDB6C9332D47498700397170 /* ThankYouViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewModel.swift; sourceTree = "<group>"; };
 		BDB6C9352D47499200397170 /* ThankYouModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouModel.swift; sourceTree = "<group>"; };
 		BDB6C9372D47499F00397170 /* ThankYouCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouCoordinator.swift; sourceTree = "<group>"; };
+		BDD48D622D52300900728C54 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		BDDC5CE02D48D8380086B32B /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
 		BDDC5CE22D48D8400086B32B /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
 		BDDC5CE42D48D84A0086B32B /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
@@ -233,6 +245,7 @@
 		BD2279682D4CC8EB0017B24A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BDD48D612D522FE400728C54 /* Section */,
 				BD22796C2D4CC9170017B24A /* FortuneWheelView.swift */,
 			);
 			path = View;
@@ -258,6 +271,49 @@
 			isa = PBXGroup;
 			children = (
 				BD2279722D4CCB400017B24A /* FortuneWheelCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BD252E1F2D50A03000549D09 /* FortuneWheel2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD252E232D50A1A900549D09 /* Coordinator */,
+				BD252E222D50A1A600549D09 /* Model */,
+				BD252E212D50A1A300549D09 /* ViewModel */,
+				BD252E202D50A1A000549D09 /* View */,
+			);
+			path = FortuneWheel2;
+			sourceTree = "<group>";
+		};
+		BD252E202D50A1A000549D09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD252E2A2D50A1F800549D09 /* FortuneWheel2View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD252E212D50A1A300549D09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD252E282D50A1E300549D09 /* FortuneWheel2ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD252E222D50A1A600549D09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD252E262D50A1D700549D09 /* FortuneWheel2Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD252E232D50A1A900549D09 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BD252E242D50A1C900549D09 /* FortuneWheel2Coordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -496,6 +552,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		BDD48D612D522FE400728C54 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				BDD48D622D52300900728C54 /* SegmentView.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
 		BDDC5CDB2D48D7930086B32B /* Cart */ = {
 			isa = PBXGroup;
 			children = (
@@ -618,6 +682,7 @@
 				BDECBBC92D43CC13006F7816 /* FloatingTextField.swift */,
 				BDECBBCA2D43CC13006F7816 /* TopTabView.swift */,
 				BD21CB082D489E5F00AF1186 /* HorizontalButton.swift */,
+				BD252E2C2D50D5D900549D09 /* CustomAlertView.swift */,
 			);
 			path = CommonView;
 			sourceTree = "<group>";
@@ -716,6 +781,7 @@
 		BDECBBE22D43CC13006F7816 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				BD252E1F2D50A03000549D09 /* FortuneWheel2 */,
 				BD2279672D4CC8D80017B24A /* FortuneWheel */,
 				BD97FDDC2D4BB4750030B0A8 /* PartnerRedeem2 */,
 				BD97FDCF2D4B9C770030B0A8 /* PartnerRedeem */,
@@ -846,6 +912,7 @@
 				BD7A211D2D49F9A60068748E /* NojoomyHistoryCoordinator.swift in Sources */,
 				BD97FDCB2D4B88350030B0A8 /* MaksabPartnersCoordinator.swift in Sources */,
 				BD97FDD72D4BA6FC0030B0A8 /* PartnerRedeemCoordinator.swift in Sources */,
+				BD252E2B2D50A1F800549D09 /* FortuneWheel2View.swift in Sources */,
 				BDDC5CE12D48D8380086B32B /* CartCoordinator.swift in Sources */,
 				BD2279732D4CCB400017B24A /* FortuneWheelCoordinator.swift in Sources */,
 				BDECBBEA2D43CC13006F7816 /* AppConstant.swift in Sources */,
@@ -862,8 +929,11 @@
 				BDECBBEC2D43CC13006F7816 /* ImageConstant.swift in Sources */,
 				BDDC5CE52D48D84A0086B32B /* CartViewModel.swift in Sources */,
 				BD7A211B2D49F9940068748E /* NojoomyHistoryModel.swift in Sources */,
+				BD252E252D50A1C900549D09 /* FortuneWheel2Coordinator.swift in Sources */,
 				BD21CB092D489E5F00AF1186 /* HorizontalButton.swift in Sources */,
 				BD21CB0C2D48AA7900AF1186 /* AccountOptionsList.swift in Sources */,
+				BD252E2D2D50D5D900549D09 /* CustomAlertView.swift in Sources */,
+				BD252E272D50A1D700549D09 /* FortuneWheel2Model.swift in Sources */,
 				BD97FDC92D4B88280030B0A8 /* MaksabPartnersModel.swift in Sources */,
 				BDECBBE72D43CC13006F7816 /* DropdownPicker.swift in Sources */,
 				BDECBBE92D43CC13006F7816 /* TopTabView.swift in Sources */,
@@ -871,11 +941,13 @@
 				BD2279662D4C88920017B24A /* PartnerRedeem2View.swift in Sources */,
 				BD2279622D4C887A0017B24A /* PartnerRedeem2Model.swift in Sources */,
 				BDECBBC22D43CBD8006F7816 /* AppNavigationControllerProvider.swift in Sources */,
+				BD252E292D50A1E300549D09 /* FortuneWheel2ViewModel.swift in Sources */,
 				BD97FDE22D4BB4B80030B0A8 /* PartnerRedeem2Coordinator.swift in Sources */,
 				BD97FDC72D4B88200030B0A8 /* MaksabPartnersViewModel.swift in Sources */,
 				BDDC5CE32D48D8400086B32B /* CartModel.swift in Sources */,
 				BD21CB072D4894A000AF1186 /* MyAccountView.swift in Sources */,
 				BDDC5CEA2D48DD2A0086B32B /* PaymentMethodListView.swift in Sources */,
+				BDD48D632D52300900728C54 /* SegmentView.swift in Sources */,
 				BDECBBAC2D43CB7A006F7816 /* AppDelegate.swift in Sources */,
 				BD7A21192D49F98B0068748E /* NojoomyHistoryViewModel.swift in Sources */,
 				BD21CB052D48949600AF1186 /* MyAccountViewModel.swift in Sources */,

@@ -62,4 +62,13 @@ enum spin :String {
     case img_fortuneWheel = "img_fortuneWheel"
     case img_spinPin = "img_spinPin"
     case img_wheelCircle = "img_wheelCircle"
+    case img_spinBG1 = "img_spinBG1"
+    case img_giftbox = "img_giftbox"
+    case img_spinCircle = "img_spinCircle"
+    case img_pin = "img_pin"
+    case img_spinWheel = "img_spinWheel"
+    case img_spinBG2 = "img_spinBG2"
+    case img_SW = "img_SW"
+    case img_emoji = "img_emoji"
+    case img_confetti = "img_confetti"
 }
